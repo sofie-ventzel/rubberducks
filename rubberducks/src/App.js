@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react'
+
+import Home from './Pages/Home'
+import Search from './Pages/Search'
+import Form from './Pages/Form'
+import Header from './Componants/Header'
+import Footer from './Componants/Footer'
 
 function App() {
+
+  const [page, setPage] = useState('home')
+  // adding a prop
+  const brand = 'Community Run, Community Owned!'
+
+  // switch function to take a case dependant on the changes of a click listener in header
+  const handlePageView = () => {
+    switch (page) {
+      case 'home':
+        return <Home />;
+      case 'search':
+        return <Search />;
+      case 'form':
+        return <Form />
+    }
+  }
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header brand={brand} setPage={setPage} />
+      {handlePageView()}
+      <Footer />
+    </>
   );
 }
 
