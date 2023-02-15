@@ -1,9 +1,23 @@
 function Header(props) {
+
+    const styles = {
+        image: {
+
+            width: '10%',
+            height: 'auto',
+
+        }
+    }
+
     return (
 
         <header>
 
-            <h2>RubberDucks</h2>
+            <section>
+                <img style={styles.image} src="/UntitledTwo.png" alt="Yellow duck" />
+                <h1>RubberDucks</h1>
+                <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
+            </section>
             <h2>The Bird enthusiasts page</h2>
             <h2>{props.brand}</h2>
 
@@ -16,6 +30,6 @@ function Header(props) {
         </header>
 
     )
-}
 
+}
 export default Header;
