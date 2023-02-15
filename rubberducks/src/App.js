@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom'
 
 import Home from './Pages/Home'
 import Search from './Pages/Search'
@@ -10,29 +10,22 @@ import Footer from './Componants/Footer'
 
 function App() {
 
-  const [page, setPage] = useState('home')
   // adding a prop
   const brand = 'Community Run, Community Owned!'
 
   // switch function to take a case dependant on the changes of a click listener in header
-  const handlePageView = () => {
-    switch (page) {
-      case 'home':
-        return <Home />;
-      case 'search':
-        return <Search />;
-      case 'form':
-        return <Form />
-      case 'findings':
-        return <Findings />
-    }
-  }
 
 
   return (
     <>
-      <Header brand={brand} setPage={setPage} />
-      {handlePageView()}
+      <Header brand={brand} />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/form" element={<Form />} />
+        <Route path="/search" element={<Search />} />
+        <Route path="/findings" element={<Findings />} />
+      </Routes>
+
       <Footer />
     </>
   );

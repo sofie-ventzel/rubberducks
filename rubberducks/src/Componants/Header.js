@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 function Header(props) {
 
     const styles = {
@@ -22,9 +23,15 @@ function Header(props) {
             <h2>{props.brand}</h2>
 
             <nav>
-                <button onClick={() => props.setPage('home')}>Return Home</button>
-                <button onClick={() => props.setPage('search')}>Search for a species</button>
-                <button onClick={() => props.setPage('form')}>Submit a sighting</button>
+                <NavLink to="/">
+                    <button>Home</button>
+                </NavLink>
+                <NavLink to="/search">
+                    <button>Search a Species</button>
+                </NavLink>
+                <NavLink to="/form">
+                    <button>Contribute a sighting</button>
+                </NavLink>
             </nav>
 
         </header>
