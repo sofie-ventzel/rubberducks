@@ -67,7 +67,7 @@ function Data() {
 
                 <input name="name" onChange={handleChange} type="text" placeholder="Enter Your Name" />
                 <input name="email" onChange={handleChange} type="text" placeholder="Your Email Address" />
-                <textarea name="message" onChange={handleChange} placeholder="Enter Your Message....." cols="30" rows="10"></textarea>
+                <textarea name="message" onChange={handleChange} placeholder="Enter a sighting including lat and log data....." cols="30" rows="10"></textarea>
                 <button onClick={handleSubmit} style={styles.longButton}>Submit</button>
 
             </form>
