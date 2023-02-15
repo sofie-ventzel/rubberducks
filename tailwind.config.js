@@ -9,6 +9,7 @@ module.exports = {
         'rosyPink': '#ce4257',
         'warmOrange': '#ff7f51',
         'darkYellow': '#ff9b54',
-    },
+        },
     plugins: [],
   }
+}
