@@ -59,7 +59,7 @@ function Data() {
     }
 
     return (
-        <section>
+        <div>
 
             <h2> Make a contribution</h2>
 
@@ -74,7 +74,7 @@ function Data() {
 
             {success && <p style={styles.success}>Form Submitted Successfully</p>}
 
-        </section>
+        </div>
 
     )
 }
