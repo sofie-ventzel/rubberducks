@@ -70,7 +70,8 @@ a {
   flex-direction: row;
   justify-content: space-around;
   font-family: "Papyrus", fantasy;
-  font-weight: 900
+  font-weight: 900;
+  text-align: center
 }
 
 p {

@@ -26,7 +26,7 @@ function Birds(props) {
             {Data.map((post) => {
                 return (
                     <>
-                        <a style={styles.child} key={post.name}>{post.name}</a>
+                        <nav onClick={() => props.setPage('birds')} style={styles.child} key={post.name}>{post.name}</nav>
                     </>
                 )
             })}
