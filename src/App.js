@@ -3,6 +3,8 @@ import { useState } from 'react'
 import Home from './Pages/Home'
 import Search from './Pages/Search'
 import Form from './Pages/Form'
+import Findings from './Pages/Findings'
+
 import Header from './Componants/Header'
 import Footer from './Componants/Footer'
 
@@ -21,6 +23,8 @@ function App() {
         return <Search />;
       case 'form':
         return <Form />
+      case 'findings':
+        return <Findings />
     }
   }
 

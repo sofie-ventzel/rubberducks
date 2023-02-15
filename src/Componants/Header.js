@@ -18,7 +18,7 @@ function Header(props) {
                 <h1>RubberDucks</h1>
                 <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
             </section>
-            <h2>The Bird enthusiasts page</h2>
+            <h2>The Bird Enthusiasts Community Page</h2>
             <h2>{props.brand}</h2>
 
             <nav>
