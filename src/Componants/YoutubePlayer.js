@@ -28,7 +28,7 @@ export const YoutubePlayer = ({ }) => {
   useEffect(() => {
     async function fetchRandomVideos() {
       const videosResult = await fetch(
-        `https://youtube.googleapis.com/youtube/v3/search?maxResults=50&q=funny_birds&key=${process.env.REACT_APP_NOT_SECRET_CODE}`
+        `https://youtube.googleapis.com/youtube/v3/search?maxResults=50&q=funny_birds&key=AIzaSyDpGQ1r9kYYBP0sQHPVIlfUQ6hqBADv48k`
       );
       const videos = await videosResult.json();
       const videoIds = videos.items?.map((video) => video.id.videoId);
