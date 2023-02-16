@@ -105,7 +105,8 @@ h1 {
   height: 75vh;
 }
 
-div {
+div,
+nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
