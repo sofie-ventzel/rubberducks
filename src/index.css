@@ -99,3 +99,22 @@ h1 {
   flex-direction: column;
   align-content: center;
 }
+
+#map {
+  width: 75vw;
+  height: 75vh;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex: 0 0 auto;
+
+}
+
+.leaflet-popup-tip {
+  width: 0 !important;
+  height: 0 !important;
+}

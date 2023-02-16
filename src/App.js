@@ -8,6 +8,8 @@ import Findings from './Pages/Findings'
 import Header from './Componants/Header'
 import Footer from './Componants/Footer'
 
+
+
 function App() {
 
   // adding a prop
