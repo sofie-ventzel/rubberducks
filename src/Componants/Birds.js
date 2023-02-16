@@ -1,4 +1,5 @@
 import Data from "../BirdList.json"
+import { NavLink } from 'react-router-dom'
 
 const styles = {
     birdy: {
@@ -23,11 +24,13 @@ function Birds(props) {
     return (
 
         <div style={styles.birdy}>
-            {Data.map((post) => {
+            {Data.map((post, i) => {
                 return (
-                    <>
-                        <nav onClick={() => props.setPage('birds')} style={styles.child} key={post.name}>{post.name}</nav>
-                    </>
+                    <div style={styles.child} key={`${post.name}-${i}`}>
+                        <NavLink to="/findings">
+                            <button style={styles.child}>{post.name}</button>
+                        </NavLink>
+                    </div>
                 )
             })}
         </div>)
