@@ -27,7 +27,9 @@ function Birds(props) {
             {Data.map((post, i) => {
                 return (
                     <div style={styles.child} key={`${post.name}-${i}`}>
-                        <NavLink to="/findings">
+                        <NavLink to="/findings"
+                            // the selected bird becomes a state variable which can be called to any sheet this will be called on for Mapping and Blog post componants
+                            state={{ birdName: post.name }}>
                             <button style={styles.child}>{post.name}</button>
                         </NavLink>
                     </div>

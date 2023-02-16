@@ -27,10 +27,10 @@ function Header(props) {
                     <button>Home</button>
                 </NavLink>
                 <NavLink to="/search">
-                    <button>Search a Species</button>
+                    <button>Search for Posts</button>
                 </NavLink>
                 <NavLink to="/form">
-                    <button>Contribute a sighting</button>
+                    <button>Add a Post</button>
                 </NavLink>
             </nav>
 

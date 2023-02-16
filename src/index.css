@@ -19,7 +19,7 @@ button {
   margin-bottom: 5%;
   border-radius: 12px;
   background-color: rgb(223, 129, 187);
-  width: 230px
+  width: 120px
 }
 
 .bottomButton {
@@ -101,16 +101,14 @@ h1 {
 }
 
 #map {
-  width: 75vw;
   height: 75vh;
+  margin: 2px
 }
 
-div,
-nav {
+div {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
   flex: 0 0 auto;
 
 }
