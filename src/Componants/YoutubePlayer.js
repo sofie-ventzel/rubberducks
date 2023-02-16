@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import YouTube from "react-youtube";
 
-export const YoutubePlayer = ({}) => {
+export const YoutubePlayer = ({ }) => {
   const [videos, setVideos] = useState([]);
 
   const opts = {

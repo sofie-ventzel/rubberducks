@@ -7,7 +7,7 @@ import Data from "../Moderation.json"
 
 const markerIcon = new L.Icon({
     iconUrl: require("../Icon/duck.png"),
-    iconSize: [25, 25]
+    iconSize: [30, 30]
 })
 
 
