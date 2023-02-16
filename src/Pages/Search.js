@@ -1,6 +1,8 @@
 import Birds from "../Componants/Birds"
 function Search(props) {
 
+
+
     const styles = {
         image: {
 
@@ -17,20 +19,14 @@ function Search(props) {
     }
     return (
         <div>
-            <div style={styles.div}>
-                <img style={styles.image} src="/UntitledTwo.png" alt="Yellow duck" />
-                <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
-                <img style={styles.image} src="/UntitledTwo.png" alt="Yellow duck" />
-            </div>
-
             <Birds />
+
 
             <h2>Please add sightings of common and rare birds via the submit a sighting page</h2>
 
             <div style={styles.div}>
                 <img style={styles.image} src="/UntitledTwo.png" alt="Yellow duck" />
                 <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
-                <img style={styles.image} src="/UntitledTwo.png" alt="Yellow duck" />
             </div>
         </div>
 
