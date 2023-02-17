@@ -13,6 +13,7 @@ code {
     monospace;
 }
 
+/* button styles */
 button {
   display: flex;
   justify-content: space-around;
@@ -22,6 +23,10 @@ button {
   width: 120px
 }
 
+.bottomButton {
+  justify-content: center;
+}
+
 /* youtube position on page */
 .Video-player {
   display: flex;
@@ -29,10 +34,11 @@ button {
   margin: 2%;
 }
 
-.bottomButton {
-  justify-content: center;
+.card {
+  display: contents;
 }
 
+/* form styles */
 form {
 
   width: 80%;
