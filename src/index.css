@@ -19,7 +19,7 @@ button {
   margin-bottom: 5%;
   border-radius: 12px;
   background-color: rgb(223, 129, 187);
-  width: 230px
+  width: 120px
 }
 
 /* youtube position on page */
@@ -105,4 +105,22 @@ h1 {
 
   flex-direction: column;
   align-content: center;
+}
+
+#map {
+  height: 75vh;
+  margin: 2px
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 0 0 auto;
+
+}
+
+.leaflet-popup-tip {
+  width: 0 !important;
+  height: 0 !important;
 }
