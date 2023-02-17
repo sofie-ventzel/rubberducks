@@ -34,9 +34,7 @@ function Main() {
         <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
         <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
       </div>
-      <div className="Video-player">
-        {/* <YoutubePlayer /> */}
-      </div>
+      <div className="Video-player">{<YoutubePlayer />}</div>
     </main>
   );
 }
