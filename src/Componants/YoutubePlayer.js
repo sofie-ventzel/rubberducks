@@ -19,7 +19,7 @@ export const YoutubePlayer = ({ }) => {
   }
 
   function pickRandomVideo() {
-    if (videos.length === 0) return "otV4xSdXLh0";
+    if (!videos || videos.length === 0) return "otV4xSdXLh0";
 
     const randomVideo = videos[Math.floor(Math.random() * videos.length)];
     return randomVideo;
