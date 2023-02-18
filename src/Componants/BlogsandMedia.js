@@ -31,21 +31,22 @@ function BlogsandMedia() {
     const birds = state.birdName ? Data.filter(function (post) {
         return post.name === state.birdName
     }) : Data
-
+    console.log({ birds })
     return (
 
         <div>
-            {birds.map((post, i) => {
+            {birds.length > 0 ? birds.map((post, i) => {
                 return (
                     <div style={styles.container} key={`${post.name}-${i}`}>
-                        <img style={styles.image} src={post.media} alt="Yellow duck" />
+                        <img style={styles.image} src={post.media} />
                         <div style={styles.wording}>
                             <p>Blog Description: {post.comments}</p>
                             <p>Posted by : {post.contributor}</p>
                         </div>
                     </div>
                 )
-            })}
+                // if there are no sightings bird lenth above finds 0 and skips to the paragraph to confirm nothing found
+            }) : <p>No sightings reported so far, please add a sighting if you spot this bird!</p>}
 
         </div>
 

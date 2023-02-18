@@ -37,9 +37,8 @@ function MapPlotting() {
                             </Popup>
                         </Marker>)
                 })}
-
-
             </MapContainer>
+
         </div >
     )
 }
