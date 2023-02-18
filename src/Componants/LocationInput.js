@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function LocationInput() {
+export function LocationInput({ onChange }) {
   const [isUsingGeoLocation, setUsingGeoLocation] = useState(false);
   const [geoLocation, setGeoLocation] = useState(null);
 
@@ -24,6 +24,17 @@ export function LocationInput() {
     }
   }, [isUsingGeoLocation]);
 
+  const inputName = "lat_long";
+
+  useEffect(() => {
+    onChange({
+      target: {
+        name: inputName,
+        value: JSON.stringify(geoLocation),
+      },
+    });
+  }, [geoLocation]);
+
   return (
     <div>
       <div
@@ -43,21 +54,21 @@ export function LocationInput() {
 
       {
         // TODO shall we the input, or make it uneditable
-        // TODO delete this console.log
-        console.log({ geoLocation })
       }
       <input
         type="text"
-        name="lat_long"
+        name={inputName}
         placeholder="Latitude Longitude input"
         value={geoLocation ? JSON.stringify(geoLocation) : ""}
         readOnly={true}
+        onChange={onChange}
       />
       <input
         type="text"
         name="postcode"
         placeholder="Postcode"
         readOnly={isUsingGeoLocation}
+        onChange={onChange}
       />
     </div>
   );

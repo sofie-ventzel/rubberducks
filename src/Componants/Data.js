@@ -80,7 +80,7 @@ function Data() {
           cols="30"
           rows="10"
         ></textarea>
-        <LocationInput />
+        <LocationInput onChange={handleChange} />
         <button onClick={handleSubmit} style={styles.longButton}>
           Submit
         </button>
