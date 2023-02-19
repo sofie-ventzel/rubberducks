@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import { LocationInput } from "./LocationInput";
 
 const styles = {
@@ -58,14 +59,21 @@ function Data() {
 
   return (
     <div>
-      <h2> Make a contribution</h2>
+      <p>
+        We use a 3rd party for gathering your form submission data, to review
+        their data policies visit the below link
+      </p>
+
+      <NavLink to="https://web3forms.com/">
+        <button>Web3forms</button>
+      </NavLink>
 
       <form>
         <input
           name="name"
           onChange={handleChange}
           type="text"
-          placeholder="Enter Your Name"
+          placeholder="Blogger name will appear on site"
         />
         <input
           name="email"
