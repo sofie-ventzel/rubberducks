@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { NavLink } from "react-router-dom";
 
 const styles = {
     longButton: {
@@ -6,7 +7,7 @@ const styles = {
         display: 'flex',
         marginTop: '3%',
         marginBottom: '7%',
-        textAlign: 'center'
+        textAlign: 'center',
     },
     success: {
         textAlign: 'center',
@@ -61,11 +62,15 @@ function Data() {
     return (
         <div>
 
-            <h2> Make a contribution</h2>
+            <p>We use a 3rd party for gathering your form submission data, to review their data policies visit the below link</p>
+
+            <NavLink to="https://web3forms.com/">
+                <button>Web3forms</button>
+            </NavLink>
 
             <form>
 
-                <input name="name" onChange={handleChange} type="text" placeholder="Enter Your Name" />
+                <input name="name" onChange={handleChange} type="text" placeholder="Blogger name will appear on site" />
                 <input name="email" onChange={handleChange} type="text" placeholder="Your Email Address" />
                 <textarea name="message" onChange={handleChange} placeholder="Enter a sighting including lat and log data....." cols="30" rows="10"></textarea>
                 <button onClick={handleSubmit} style={styles.longButton}>Submit</button>
@@ -74,7 +79,7 @@ function Data() {
 
             {success && <p style={styles.success}>Form Submitted Successfully</p>}
 
-        </div>
+        </div >
 
     )
 }
