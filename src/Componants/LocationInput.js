@@ -21,6 +21,8 @@ export function LocationInput({ onChange }) {
           console.error(e);
         }
       );
+    } else {
+      setGeoLocation(null);
     }
   }, [isUsingGeoLocation]);
 
@@ -51,10 +53,6 @@ export function LocationInput({ onChange }) {
           onChange={handleCheck}
         />
       </div>
-
-      {
-        // TODO shall we the input, or make it uneditable
-      }
       <input
         type="text"
         name={inputName}
