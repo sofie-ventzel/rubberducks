@@ -8,9 +8,6 @@ function Footer() {
             <h3>This website is moderated by the community for the community</h3>
             <h3>Please allow 48 hours for any post to be approved and the site be updated</h3>
             <h3>Should you wish to be a moderator please use the contact form to express your interest</h3>
-            <NavLink to="/Moderator">
-                <button>Become a Moderator</button>
-            </NavLink>
 
         </footer>
 

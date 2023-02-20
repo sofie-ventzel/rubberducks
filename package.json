@@ -15,7 +15,7 @@
     "react-lite": "^0.15.40",
     "react-lite-youtube-embed": "^2.3.52",
     "react-router-dom": "^6.8.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
