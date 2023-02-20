@@ -32,6 +32,9 @@ function Header(props) {
                 <NavLink to="/form">
                     <button>Add a Post</button>
                 </NavLink>
+                <NavLink to="/HowTo">
+                    <button>How To Birdwatch</button>
+                </NavLink>
             </nav>
 
         </header>
