@@ -2,22 +2,8 @@ import { useEffect, useState } from "react";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
-export const YoutubePlayer = ({ }) => {
+export const YoutubePlayer = () => {
   const [videos, setVideos] = useState([]);
-
-  const opts = {
-    height: "390",
-    width: "640",
-    playerVars: {
-      // https://developers.google.com/youtube/player_parameters
-      autoplay: 1,
-    },
-  };
-
-  function _onReady(event) {
-    // access to player in all event handlers via event.target
-    event.target.pauseVideo();
-  }
 
   function pickRandomVideo() {
     if (!videos || videos.length === 0) return "otV4xSdXLh0";
@@ -39,7 +25,7 @@ export const YoutubePlayer = ({ }) => {
   }, []);
 
   return (
-    <div className="card" style={{ height: "400px", width: "600px" }}>
+    <div className="card" style={{ alignSelf: "center", height: "400px", width: "600px" }}>
       <LiteYouTubeEmbed
         id={pickRandomVideo()}
         title="What’s new in Material Design for the web (Chrome Dev Summit 2019)"

@@ -1,15 +1,15 @@
 body {
-  margin: 0;
+  margin: 10px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #f1c86f
+  background: #f1c86f;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -20,7 +20,7 @@ button {
   margin-bottom: 5%;
   border-radius: 12px;
   background-color: rgb(223, 129, 187);
-  width: 120px
+  width: 120px;
 }
 
 .bottomButton {
@@ -31,6 +31,7 @@ button {
 .Video-player {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 2%;
 }
 
@@ -40,7 +41,6 @@ button {
 
 /* form styles */
 form {
-
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -49,7 +49,6 @@ form {
 
 input,
 textarea {
-
   padding: 1% 1%;
   margin-bottom: 1%;
   border-radius: 8px;
@@ -68,7 +67,7 @@ img {
   display: flex;
   width: 80%;
   height: auto;
-  margin: auto
+  margin: auto;
 }
 
 nav,
@@ -77,13 +76,12 @@ h2,
 h3,
 h4,
 a {
-
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   font-family: "Papyrus", fantasy;
   font-weight: 900;
-  text-align: center
+  text-align: center;
 }
 
 p {
@@ -98,24 +96,21 @@ p {
 a {
   color: brown;
   text-decoration: none;
-
 }
 
 section {
-
   display: flex;
   justify-content: space-around;
 }
 
 h1 {
-
   flex-direction: column;
   align-content: center;
 }
 
 #map {
   height: 75vh;
-  margin: 2px
+  margin: 2px;
 }
 
 div {
@@ -123,7 +118,6 @@ div {
   flex-direction: column;
   justify-content: space-around;
   flex: 0 0 auto;
-
 }
 
 .leaflet-popup-tip {

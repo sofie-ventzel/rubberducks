@@ -9,45 +9,60 @@ function BlogsandMedia() {
             width: '100%',
             height: 'auto',
             display: 'flex',
-            flexDirection: 'row',
-            justifyContent: 'space-between'
+            flexDirection: 'column',
+            justifyContent: 'space-between',
+            fontFamily: "Papyrus, fantasy",
+            fontWeight: "bold",
+            border: "solid"
 
         },
         wording: {
             display: 'flex',
-            flexDirection: 'column',
+            flexDirection: 'row',
             width: '50%',
             height: 'auto',
 
         },
 
         image: {
-            width: '50%',
-            marginLeft: '2px',
-        }
+            width: '75%',
+            marginLeft: 'auto',
+            marginTop: '1%',
+        },
+        extraWording: {
+            display: 'flex',
+            flexDirection: 'row',
+            width: '100%',
+            height: 'auto',
+
+        },
     }
     // pulling the state value and using the special function this filters out through the function only the selected bird which is then returned as the relevant blog posts
     const { state } = useLocation()
     const birds = state.birdName ? Data.filter(function (post) {
         return post.name === state.birdName
     }) : Data
-
+    console.log({ birds })
     return (
 
-        <div>
-            {birds.map((post, i) => {
+        <article>
+            {birds.length > 0 ? birds.map((post, i) => {
                 return (
-                    <div style={styles.container} key={`${post.name}-${i}`}>
-                        <img style={styles.image} src={post.media} alt="Yellow duck" />
-                        <div style={styles.wording}>
-                            <p>Blog Description: {post.comments}</p>
-                            <p>Posted by : {post.contributor}</p>
+                    <section style={styles.container} key={`${post.name}-${i}`}>
+                        <img style={styles.image} src={post.media} />
+                        <p style={styles.container}>Blog Description: </p>
+                        <p>{post.comments}</p>
+                        <div style={styles.extraWording}>
+                            <p>Posted by :</p>
+                            <p>{post.contributor}</p>
                         </div>
-                    </div>
-                )
-            })}
+                    </section>
 
-        </div>
+                )
+                // if there are no sightings bird lenth above finds 0 and skips to the paragraph to confirm nothing found
+            }) : <p>No sightings reported so far, please add a sighting if you spot this bird!</p>}
+
+        </article>
 
 
     )
