@@ -1,9 +1,9 @@
 function RecordThis() {
     return (
         <>
-        <div class="container mx-left">
-            <h2>How to get into birdwatching:</h2>
-            <h3>7 top tips</h3>
+        <div class="container">
+            <h2 class="bg-rosyPink text-xl font-bold">How to get into birdwatching</h2>
+            <h3 class="bg-rosyPink">7 top tips</h3>
             <p className="text-sm font-large text-gray-900">Birding is a great way to see wildlife, but how do you get started?</p>
             <a href="https://www.discoverwildlife.com/how-to/watch-wildlife/how-to-get-into-birdwatching/">Amy-Jane Beer shares her advice for becoming a birdwatching pro...</a>
             <h3>Where do I start birdwatching?</h3>
