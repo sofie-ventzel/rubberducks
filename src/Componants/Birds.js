@@ -30,7 +30,7 @@ function Birds(props) {
                         <NavLink to="/findings"
                             // the selected bird becomes a state variable which can be called to any sheet this will be called on for Mapping and Blog post componants
                             state={{ birdName: post.name }}>
-                            <button style={styles.child}>{post.name}</button>
+                            <button style={styles.child} class="hover:bg-warmOrange active:bg-rosyPink">{post.name}</button>
                         </NavLink>
                     </div>
                 )
