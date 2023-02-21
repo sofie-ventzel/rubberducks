@@ -17,6 +17,9 @@ function Header(props) {
                     <NavLink style={{ fontWeight: '600', color: 'black' }} to="/form">
                         Post
                     </NavLink>
+                    <NavLink style={{ fontWeight: '600', color: 'black' }} to="/HowTo">
+                        How To Birdwatch
+                    </NavLink>
                     <NavLink style={{ fontWeight: '600', color: 'black' }} to="/Moderator">
                         Moderate
                     </NavLink>
