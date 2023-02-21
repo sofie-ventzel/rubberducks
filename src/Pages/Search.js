@@ -33,12 +33,12 @@ function Search(props) {
 
             <Birds />
 
-            <h2>Please add sightings of common and rare birds via the add a post page</h2>
+            <h2 class="animate-pulse" >Please add sightings of common and rare birds via the add a post page</h2>
 
             <div style={styles.div}>
-                <img style={styles.image} src="/UntitledTwo.png" alt="Yellow duck" />
-                <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
-                <img style={styles.image} src="/UntitledTwo.png" alt="Yellow duck" />
+                <img style={styles.image} class="hover:animate-spin" src="/UntitledTwo.png" alt="Yellow duck" />
+                <img style={styles.image} class="hover:animate-ping" src="/Untitled.png" alt="Yellow duck" />
+                <img style={styles.image} class="hover:animate-pulse" src="/UntitledTwo.png" alt="Yellow duck" />
             </div>
 
             <Footer />
