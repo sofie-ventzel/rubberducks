@@ -1,3 +1,8 @@
+/* tailwind import */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 body {
   margin: 5px 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,6 +18,7 @@ code {
     monospace;
 }
 
+/* button styles */
 button {
   display: flex;
   justify-content: space-around;
@@ -20,6 +26,10 @@ button {
   border-radius: 12px;
   background-color: rgb(223, 129, 187);
   width: 120px;
+}
+
+.bottomButton {
+  justify-content: center;
 }
 
 /* youtube position on page */
@@ -30,10 +40,11 @@ button {
   margin: 2%;
 }
 
-.bottomButton {
-  justify-content: center;
+.card {
+  display: contents;
 }
 
+/* form styles */
 form {
   width: 80%;
   display: flex;

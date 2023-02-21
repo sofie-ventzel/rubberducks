@@ -559,6 +559,58 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.flex {
-  display: flex;
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.object-right {
+  object-position: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .sm\:text-left {
+    text-align: left;
+  }
+
+  .sm\:text-center {
+    text-align: center;
+  }
 }
