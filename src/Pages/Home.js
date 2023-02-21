@@ -5,6 +5,7 @@ import Main from '../Componants/Main'
 function Home() {
     return (
         <>
+        
             <Main />
             <Footer />
         </>
