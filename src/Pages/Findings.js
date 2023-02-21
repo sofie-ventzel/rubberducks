@@ -5,8 +5,8 @@ import MapPlotting from "../Componants/MapPlotting";
 
 
 
-function Findings() {
-
+function Findings(props) {
+    console.log("search test", props.state)
     return (
         <>
             <MapPlotting />
