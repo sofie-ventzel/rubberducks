@@ -31,9 +31,20 @@ function MapPlotting() {
         return post.name === state.birdName
     }) : Data
     
-    let apiBirdName = state.birdName.split(" ")[0]+"%20"+state.birdName.split(" ")[1]
+    let apiBirdName = ""
     let googleURL = 'https://www.google.com/search?q='
+const getAPIName = ()=>{
+    if(state.birdName.split(" ").length > 1)
+    {
+        apiBirdName = state.birdName.split(" ")[0]+"%20"+state.birdName.split(" ")[1]
+    }
+    else
+    apiBirdName = state.birdName
+
+}
+
     const googleBirdName = ()=>{
+        getAPIName()
         if (state.birdName.split("'").length > 1)
         {
            
