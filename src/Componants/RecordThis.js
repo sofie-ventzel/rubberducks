@@ -1,7 +1,7 @@
 function RecordThis() {
   return (
-    <div class="flex justify-center items-center">
-      <div class="container ">
+    <>
+      <div class="container">
         <h2 class="mt-10 p-2 bg-rosyPink text-xl font-bold">
           How to get into birdwatching
         </h2>
@@ -36,13 +36,13 @@ function RecordThis() {
           <p class="mt-2">Everyone does! If you see a mystery bird, note down as many details as you can including its appearance, song, location and behaviour. If you can take a photo (even if it’s not a good one) that will help. Use the information to consult a field guide, share with a local bird group or social media. Don’t be afraid to ask questions.</p>
           <h3>How do I use a hide?</h3>
           <p class="mt-2">A hide full of people armed with expensive-looking kit can be intimidating, but don’t be put off. Enter and close the door quietly. If you’re not sure what birds to expect, look for a log book or board with recent sightings. Find a seat and a window. It’s fine to talk quietly, and to ask people what they have seen – most will be happy to share, and to point out when they see something interesting. When it’s time to leave, do so quietly, but do add any new sightings to the log.</p>
-        </div> 
+      </div> 
         <img className="h-40 w-40 mb-5" src="/Untitled.png" alt="Yellow duck" />
         <h2>What to record</h2>
         <p class="mt-2">When making an entry, the most useful things to record include the species name, the amount of birds of that species, the date and the place.
         Additional information like the age, the sex, the direction of flight or any curious behavior adds value to the observation.</p>
-      </div>
-    </div>
+    </>
+    
   )
 }
 export default RecordThis;
