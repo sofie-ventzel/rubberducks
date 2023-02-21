@@ -37,7 +37,7 @@ function Search(props) {
 
             <div style={styles.div}>
                 <img style={styles.image} class="hover:animate-spin" src="/UntitledTwo.png" alt="Yellow duck" />
-                <img style={styles.image} class="hover:animate-spin" src="/Untitled.png" alt="Yellow duck" />
+                <img style={styles.image} class="hover:animate-pulse" src="/Untitled.png" alt="Yellow duck" />
                 <img style={styles.image} class="hover:animate-spin" src="/UntitledTwo.png" alt="Yellow duck" />
             </div>
 
