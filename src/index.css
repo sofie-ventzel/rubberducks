@@ -4,7 +4,7 @@
 @import 'tailwindcss/utilities';
 
 body {
-  margin: 10px;
+  margin: 5px 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -84,8 +84,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-family: "Papyrus", fantasy;
-  font-weight: 900;
   text-align: center;
 }
 
@@ -93,7 +91,6 @@ p {
   text-align: center;
   max-width: 75%;
   margin: 5% auto;
-  font-family: "Papyrus", fantasy;
   line-height: 2;
   font-weight: bold;
 }

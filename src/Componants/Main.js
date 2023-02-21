@@ -1,6 +1,6 @@
 import { YoutubePlayer } from "./YoutubePlayer";
 
-function Main() {
+function Main(props) {
   const styles = {
     image: {
       width: "10%",
@@ -13,8 +13,14 @@ function Main() {
   };
 
   return (
-    <main>
-      <img src="/HomeImage.jpg" alt="Photo of 2 keen birdwatchers" />
+    <main >
+      <img style={{ width: '100%', height: 'auto', marginTop: '2%', marginBottom: '2%' }} src="/vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg" alt="Yellow duck" />
+      <h2>The Bird Enthusiasts Community Page</h2>
+      <h2>{props.brand}</h2>
+
+      <h2>Some bird humour videos!</h2>
+
+      <div className="Video-player">{<YoutubePlayer />}</div>
 
       <p>
         Join our UK wide community of bird enthusiasts, discover the wonders of
@@ -23,18 +29,8 @@ function Main() {
         Birdwatching is great to get outdoors and contributions to this site in
         the form of posts keep it going!
       </p>
-      <div style={styles.div}>
-        <img style={styles.image} src="/UntitledTwo.png" alt="Yellow duck" />
-        <img style={styles.image} src="/UntitledTwo.png" alt="Yellow duck" />
-        <img style={styles.image} src="/UntitledTwo.png" alt="Yellow duck" />
-      </div>
-      <h2>Getting our ducks in a row!</h2>
-      <div style={styles.div}>
-        <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
-        <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
-        <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
-      </div>
-      <div className="Video-player">{<YoutubePlayer />}</div>
+      <img src="/Goose.png" alt="Goose" />
+
     </main>
   );
 }

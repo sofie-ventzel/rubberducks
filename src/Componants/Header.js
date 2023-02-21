@@ -1,44 +1,32 @@
 import { NavLink } from "react-router-dom";
 function Header(props) {
 
-    const styles = {
-        image: {
-
-            width: '10%',
-            height: 'auto',
-
-        }
-    }
-
     return (
 
         <header>
-
             <section>
-                <img style={styles.image} src="/UntitledTwo.png" alt="Yellow duck" />
-                <h1>RubberDucks</h1>
-                <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
+                <img style={{ width: '10%', height: 'auto', margin: '0 4%' }} src="/UntitledTwo.png" alt="Yellow duck" />
+                <h1 style={{ fontSize: '35px' }}>RubberDucks </h1>
+                <nav style={{ flexDirection: 'column', margin: '0 4%' }}>
+                    <NavLink style={{ fontWeight: '600', color: 'black' }} to="/">
+                        Home
+                    </NavLink>
+                    <NavLink style={{ fontWeight: '600', color: 'black' }} to="/search">
+                        Search
+                    </NavLink>
+                    <NavLink style={{ fontWeight: '600', color: 'black' }} to="/form">
+                        Post
+                    </NavLink>
+                    <NavLink style={{ fontWeight: '600', color: 'black' }} to="/HowTo">
+                        How To Birdwatch
+                    </NavLink>
+                    <NavLink style={{ fontWeight: '600', color: 'black' }} to="/Moderator">
+                        Moderate
+                    </NavLink>
+                </nav>
             </section>
-            <h2>The Bird Enthusiasts Community Page</h2>
-            <h2>{props.brand}</h2>
 
-            <nav>
-                <NavLink to="/">
-                    <button>Home</button>
-                </NavLink>
-                <NavLink to="/search">
-                    <button>Search for Posts</button>
-                </NavLink>
-                <NavLink to="/form">
-                    <button>Add a Post</button>
-                </NavLink>
-                <NavLink to="/HowTo">
-                    <button>How To Birdwatch</button>
-                </NavLink>
-            </nav>
-
-        </header>
-
+        </header >
     )
 
 }
