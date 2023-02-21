@@ -24,6 +24,7 @@ function Data() {
 
   const [formData, setFormData] = useState({
     name: "",
+    birdName: "",
     email: "",
     message: "",
     access_key: "768890a2-5b57-4e66-bb0c-417cd8996993",
@@ -76,6 +77,12 @@ function Data() {
           placeholder="Blogger name will appear on site"
         />
         <input
+          name="birdName"
+          onChange={handleChange}
+          type="text"
+          placeholder="What bird did you spot"
+        />
+        <input
           name="email"
           onChange={handleChange}
           type="text"
@@ -84,7 +91,7 @@ function Data() {
         <textarea
           name="message"
           onChange={handleChange}
-          placeholder="Enter a sighting including lat and log data....."
+          placeholder="Enter a sighting if you have an image/video provide a gdrive shareable link to us"
           cols="30"
           rows="10"
         ></textarea>
