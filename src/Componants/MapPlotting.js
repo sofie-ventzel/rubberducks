@@ -12,6 +12,14 @@ const markerIcon = new L.Icon({
     iconSize: [30, 30]
 })
 
+const style ={
+    
+    birdDetailP:
+    {
+        marginBottom:"0px",
+    }
+}
+
 
 
 
@@ -23,7 +31,21 @@ function MapPlotting() {
         return post.name === state.birdName
     }) : Data
     
-    const apiBirdName = state.birdName.split(" ")[0]+"%20"+state.birdName.split(" ")[1]
+    let apiBirdName = state.birdName.split(" ")[0]+"%20"+state.birdName.split(" ")[1]
+    let googleURL = 'https://www.google.com/search?q='
+    const googleBirdName = ()=>{
+        if (state.birdName.split("'").length > 1)
+        {
+           
+            apiBirdName = state.birdName.split("'")[0]+"%27"+state.birdName.split("'")[1]
+            googleURL =googleURL + apiBirdName
+            console.log(googleURL)
+        } 
+        else{
+            googleURL =googleURL + apiBirdName
+        }  
+        }
+
     const birdDetail = ()=>{
         fetch(
             `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${apiBirdName}&format=json&origin=*`,
@@ -31,19 +53,21 @@ function MapPlotting() {
           )
             .then((res) => res.json())
             .then((data) => {   
-                console.log(data.query.search[0].snippet)           
-                setbirdData( data.query.search[0].snippet)
+                      
+                setbirdData( data.query.search[0].snippet + "..." )
             });
     }
     
-   
-    
+        
     return (
         <div>
             <h1>{state.birdName}</h1>
+            {googleBirdName()}
             {birdDetail()}
-            <p dangerouslySetInnerHTML={{__html:birdData}}/>
-
+            
+            <p className= "birdDetailP"  style={style.birdDetailP} dangerouslySetInnerHTML={{__html:birdData}}></p> 
+            <a href ={googleURL}>Click here for more details</a>
+           
             <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false} id="map">
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
