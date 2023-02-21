@@ -21,13 +21,13 @@ function Search(props) {
             <img style={{ flexDirection: 'JustifyContent', marginTop: '1%', marginBottom: '1%' }} src="/HomeImage.jpg" alt="Photo of 2 keen birdwatchers" />
 
             <div style={styles.div}>
-                <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
-                <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
-                <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
-                <img style={styles.image} src="/Goose.png" alt="Goose" />
-                <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
-                <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
-                <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
+                <img style={styles.image} class="animate-bounce" src="/Untitled.png" alt="Yellow duck" />
+                <img style={styles.image} class="animate-bounce" src="/Untitled.png" alt="Yellow duck" />
+                <img style={styles.image} class="animate-bounce" src="/Untitled.png" alt="Yellow duck" />
+                <img style={styles.image} class="animate-bounce" src="/Goose.png" alt="Goose" />
+                <img style={styles.image} class="animate-bounce" src="/Untitled.png" alt="Yellow duck" />
+                <img style={styles.image} class="animate-bounce" src="/Untitled.png" alt="Yellow duck" />
+                <img style={styles.image} class="animate-bounce" src="/Untitled.png" alt="Yellow duck" />
 
             </div>
 
