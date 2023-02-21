@@ -22,10 +22,8 @@ function Birds() {
                 <div style={{ display: 'flex', position: 'absolute', right: '20%', left: '20%', bottom: '15%', }}>
                     <div style={{ display: 'flex', flex: 'auto', opacity: '0.6' }}>
                         <Select onChange={handleChange} placeholder="Start typing then select your bird" options={options} styles={{ width: 'maxwidth', opacity: '0.5' }} />
-                        <NavLink to={{
-                            pathname: "/findings",
-                            birdName
-                        }}
+                        <NavLink to="/findings"
+                            state={{ birdName }}
                             style={{ background: 'white', border: 'none', width: '100%', borderRadius: '0px', paddingTop: '0' }}>Press to submit your choice
                         </NavLink>
                     </div>
