@@ -10,7 +10,7 @@ function Birds() {
     const [birdName, setBirdname] = useState("");
 
     const handleChange = (selected) => {
-        setBirdname(selected.value)
+        setBirdname(selected.name)
     }
 
     return (
