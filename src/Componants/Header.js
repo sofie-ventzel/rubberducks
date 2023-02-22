@@ -3,7 +3,7 @@ function Header(props) {
 
     return (
 
-        <header class="flex justify-center items-center">
+        <header>
             <section>
                 <img style={{ width: '10%', height: 'auto', margin: '0 4%' }} src="/UntitledTwo.png" alt="Yellow duck" />
                 <h1 style={{ fontSize: '35px' }}>RubberDucks </h1>

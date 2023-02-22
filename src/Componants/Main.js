@@ -5,7 +5,7 @@ function Main(props) {
 
   return (
     <main styles={{ display: 'flex', justifyContent: 'space-around' }}>
-      <img style={{ width: '100%', height: 'auto', margin: '2%' }} src="/vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg" alt="Yellow duck" />
+      <img style={{ width: '100%', height: 'auto' }} src="/vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg" alt="Yellow duck" />
       <h2>The Bird Enthusiasts Community Page</h2>
       <h2>{props.brand}</h2>
 
@@ -20,8 +20,7 @@ function Main(props) {
         Birdwatching is great to get outdoors and contributions to this site in
         the form of posts keep it going!
       </p>
-      <img src="/Goose.png" alt="Goose" />
-
+      <img className="h-96 w-96" src="/Goose.png" alt="Goose" />
     </main>
   );
 }
