@@ -1,0 +1,3152 @@
+[
+    {
+        "name": "Acadian Flycatcher",
+        "scientificName": "Empidonax virescens",
+        "category": "A"
+    },
+    {
+        "name": "Alder Flycatcher",
+        "scientificName": "Empidonax alnorum",
+        "category": "A"
+    },
+    {
+        "name": "Aleutian Tern",
+        "scientificName": "Onychoprion aleuticus",
+        "category": "A"
+    },
+    {
+        "name": "Allen's Gallinule",
+        "scientificName": "Porphyrio alleni",
+        "category": "A"
+    },
+    {
+        "name": "Alpine Accentor",
+        "scientificName": "Prunella collaris",
+        "category": "A"
+    },
+    {
+        "name": "Alpine Swift",
+        "scientificName": "Tachymarptis melba",
+        "category": "AF"
+    },
+    {
+        "name": "American Bittern",
+        "scientificName": "Botaurus lentiginosus",
+        "category": "A"
+    },
+    {
+        "name": "American Cliff Swallow",
+        "scientificName": "Petrochelidon pyrrhonota",
+        "category": "A"
+    },
+    {
+        "name": "American Coot",
+        "scientificName": "Fulica americana",
+        "category": "A"
+    },
+    {
+        "name": "American Golden Plover",
+        "scientificName": "Pluvialis dominica",
+        "category": "A"
+    },
+    {
+        "name": "American Herring Gull",
+        "scientificName": "Larus smithsonianus",
+        "category": "A"
+    },
+    {
+        "name": "American Kestrel",
+        "scientificName": "Falco sparverius",
+        "category": "AE"
+    },
+    {
+        "name": "American Purple Gallinule",
+        "scientificName": "Porphyrio martinica",
+        "category": "A"
+    },
+    {
+        "name": "American Redstart",
+        "scientificName": "Setophaga ruticilla",
+        "category": "AE"
+    },
+    {
+        "name": "American Robin",
+        "scientificName": "Turdus migratorius",
+        "category": "AE"
+    },
+    {
+        "name": "American Wigeon",
+        "scientificName": "Mareca americana",
+        "category": "AE"
+    },
+    {
+        "name": "Amur Falcon",
+        "scientificName": "Falco amurensis",
+        "category": "AE"
+    },
+    {
+        "name": "Amur Stonechat",
+        "scientificName": "Saxicola stejnegeri",
+        "category": "A"
+    },
+    {
+        "name": "Ancient Murrelet",
+        "scientificName": "Synthliboramphus antiquus",
+        "category": "A"
+    },
+    {
+        "name": "Aquatic Warbler",
+        "scientificName": "Acrocephalus paludicola",
+        "category": "A"
+    },
+    {
+        "name": "Arctic Redpoll",
+        "scientificName": "Acanthis hornemanni",
+        "category": "A"
+    },
+    {
+        "name": "Arctic Skua",
+        "scientificName": "Stercorarius parasiticus",
+        "category": "AF"
+    },
+    {
+        "name": "Arctic Tern",
+        "scientificName": "Sterna paradisaea",
+        "category": "A"
+    },
+    {
+        "name": "Arctic Warbler",
+        "scientificName": "Phylloscopus borealis",
+        "category": "A"
+    },
+    {
+        "name": "Ascension Frigatebird",
+        "scientificName": "Fregata aquila",
+        "category": "A"
+    },
+    {
+        "name": "Asian Brown Flycatcher",
+        "scientificName": "Muscicapa dauurica",
+        "category": "A"
+    },
+    {
+        "name": "Asian Desert Warbler",
+        "scientificName": "Curruca nana",
+        "category": "A"
+    },
+    {
+        "name": "Atlantic Yellow-nosed Albatross",
+        "scientificName": "Thalassarche chlororhynchos",
+        "category": "A"
+    },
+    {
+        "name": "Audouin's Gull",
+        "scientificName": "Ichthyaetus audouinii",
+        "category": "A"
+    },
+    {
+        "name": "Avocet",
+        "scientificName": "Recurvirostra avosetta",
+        "category": "AEF"
+    },
+    {
+        "name": "Baikal Teal",
+        "scientificName": "Sibirionetta formosa",
+        "category": "AE"
+    },
+    {
+        "name": "Baillon's Crake",
+        "scientificName": "Zapornia pusilla",
+        "category": "A"
+    },
+    {
+        "name": "Baird's Sandpiper",
+        "scientificName": "Calidris bairdii",
+        "category": "A"
+    },
+    {
+        "name": "Balearic Shearwater",
+        "scientificName": "Puffinus mauretanicus",
+        "category": "A"
+    },
+    {
+        "name": "Baltimore Oriole",
+        "scientificName": "Icterus galbula",
+        "category": "AE"
+    },
+    {
+        "name": "Barn Owl",
+        "scientificName": "Tyto alba",
+        "category": "AE*F"
+    },
+    {
+        "name": "Barnacle Goose",
+        "scientificName": "Branta leucopsis",
+        "category": "AC2E*F"
+    },
+    {
+        "name": "Barolo Shearwater",
+        "scientificName": "Puffinus baroli",
+        "category": "A"
+    },
+    {
+        "name": "Barred Warbler",
+        "scientificName": "Curruca nisoria",
+        "category": "A"
+    },
+    {
+        "name": "Barrow's Goldeneye",
+        "scientificName": "Bucephala islandica",
+        "category": "AE"
+    },
+    {
+        "name": "Bar-tailed Godwit",
+        "scientificName": "Limosa lapponica",
+        "category": "AF"
+    },
+    {
+        "name": "Bay-breasted Warbler",
+        "scientificName": "Setophaga castanea",
+        "category": "A"
+    },
+    {
+        "name": "Bearded Tit",
+        "scientificName": "Panurus biarmicus",
+        "category": "A"
+    },
+    {
+        "name": "Bee-eater",
+        "scientificName": "Merops apiaster",
+        "category": "A"
+    },
+    {
+        "name": "Belted Kingfisher",
+        "scientificName": "Megaceryle alcyon",
+        "category": "A"
+    },
+    {
+        "name": "Bewick's Swan",
+        "scientificName": "Cygnus columbianus",
+        "category": "AEF"
+    },
+    {
+        "name": "Bimaculated Lark",
+        "scientificName": "Melanocorypha bimaculata",
+        "category": "A"
+    },
+    {
+        "name": "Bittern",
+        "scientificName": "Botaurus stellaris",
+        "category": "AF"
+    },
+    {
+        "name": "Black Duck",
+        "scientificName": "Anas rubripes",
+        "category": "A"
+    },
+    {
+        "name": "Black Grouse",
+        "scientificName": "Lyrurus tetrix",
+        "category": "AEF"
+    },
+    {
+        "name": "Black Guillemot",
+        "scientificName": "Cepphus grylle",
+        "category": "AF"
+    },
+    {
+        "name": "Black Kite",
+        "scientificName": "Milvus migrans",
+        "category": "AE"
+    },
+    {
+        "name": "Black Lark",
+        "scientificName": "Melanocorypha yeltoniensis",
+        "category": "A"
+    },
+    {
+        "name": "Black Redstart",
+        "scientificName": "Phoenicurus ochruros",
+        "category": "AF"
+    },
+    {
+        "name": "Black Scoter",
+        "scientificName": "Melanitta americana",
+        "category": "A"
+    },
+    {
+        "name": "Black Stork",
+        "scientificName": "Ciconia nigra",
+        "category": "AEF"
+    },
+    {
+        "name": "Black Tern",
+        "scientificName": "Chlidonias niger",
+        "category": "A"
+    },
+    {
+        "name": "Black-and-white Warbler",
+        "scientificName": "Mniotilta varia",
+        "category": "A"
+    },
+    {
+        "name": "Black-billed Cuckoo",
+        "scientificName": "Coccyzus erythropthalmus",
+        "category": "A"
+    },
+    {
+        "name": "Blackbird",
+        "scientificName": "Turdus merula",
+        "category": "AF"
+    },
+    {
+        "name": "Black-browed Albatross",
+        "scientificName": "Thalassarche melanophris",
+        "category": "A"
+    },
+    {
+        "name": "Blackburnian Warbler",
+        "scientificName": "Setophaga fusca",
+        "category": "A"
+    },
+    {
+        "name": "Blackcap",
+        "scientificName": "Sylvia atricapilla",
+        "category": "AF"
+    },
+    {
+        "name": "Black-capped Petrel",
+        "scientificName": "Pterodroma hasitata",
+        "category": "A"
+    },
+    {
+        "name": "Black-faced Bunting",
+        "scientificName": "Emberiza spodocephala",
+        "category": "AE"
+    },
+    {
+        "name": "Black-headed Bunting",
+        "scientificName": "Emberiza melanocephala",
+        "category": "AE"
+    },
+    {
+        "name": "Black-headed Gull",
+        "scientificName": "Chroicocephalus ridibundus",
+        "category": "AF"
+    },
+    {
+        "name": "Black-necked Grebe",
+        "scientificName": "Podiceps nigricollis",
+        "category": "A"
+    },
+    {
+        "name": "Blackpoll Warbler",
+        "scientificName": "Setophaga striata",
+        "category": "AE"
+    },
+    {
+        "name": "Black-tailed Godwit",
+        "scientificName": "Limosa limosa",
+        "category": "AF"
+    },
+    {
+        "name": "Black-throated Diver",
+        "scientificName": "Gavia arctica",
+        "category": "AF"
+    },
+    {
+        "name": "Black-throated Thrush",
+        "scientificName": "Turdus atrogularis",
+        "category": "A"
+    },
+    {
+        "name": "Black-winged Pratincole",
+        "scientificName": "Glareola nordmanni",
+        "category": "A"
+    },
+    {
+        "name": "Black-winged Stilt",
+        "scientificName": "Himantopus himantopus",
+        "category": "A"
+    },
+    {
+        "name": "Blue Rock Thrush",
+        "scientificName": "Monticola solitarius",
+        "category": "AE"
+    },
+    {
+        "name": "Blue Tit",
+        "scientificName": "Cyanistes caeruleus",
+        "category": "AF"
+    },
+    {
+        "name": "Blue-cheeked Bee-eater",
+        "scientificName": "Merops persicus",
+        "category": "A"
+    },
+    {
+        "name": "Bluethroat",
+        "scientificName": "Luscinia svecica",
+        "category": "A"
+    },
+    {
+        "name": "Blue-winged Teal",
+        "scientificName": "Spatula discors",
+        "category": "AE*"
+    },
+    {
+        "name": "Blyth's Pipit",
+        "scientificName": "Anthus godlewskii",
+        "category": "A"
+    },
+    {
+        "name": "Blyth's Reed Warbler",
+        "scientificName": "Acrocephalus dumetorum",
+        "category": "A"
+    },
+    {
+        "name": "Bobolink",
+        "scientificName": "Dolichonyx oryzivorus",
+        "category": "A"
+    },
+    {
+        "name": "Bonaparte's Gull",
+        "scientificName": "Chroicocephalus philadelphia",
+        "category": "A"
+    },
+    {
+        "name": "Booted Warbler",
+        "scientificName": "Iduna caligata",
+        "category": "A"
+    },
+    {
+        "name": "Brambling",
+        "scientificName": "Fringilla montifringilla",
+        "category": "AF"
+    },
+    {
+        "name": "Brent Goose",
+        "scientificName": "Branta bernicla",
+        "category": "AEF"
+    },
+    {
+        "name": "Bridled Tern",
+        "scientificName": "Onychoprion anaethetus",
+        "category": "A"
+    },
+    {
+        "name": "Broad-billed Sandpiper",
+        "scientificName": "Calidris falcinellus",
+        "category": "A"
+    },
+    {
+        "name": "Brown Booby",
+        "scientificName": "Sula leucogaster",
+        "category": "A"
+    },
+    {
+        "name": "Brown Shrike",
+        "scientificName": "Lanius cristatus",
+        "category": "A"
+    },
+    {
+        "name": "Brown Thrasher",
+        "scientificName": "Toxostoma rufum",
+        "category": "A"
+    },
+    {
+        "name": "Brown-headed Cowbird",
+        "scientificName": "Molothrus ater",
+        "category": "A"
+    },
+    {
+        "name": "Brünnich's Guillemot",
+        "scientificName": "Uria lomvia",
+        "category": "A"
+    },
+    {
+        "name": "Buff-bellied Pipit",
+        "scientificName": "Anthus rubescens",
+        "category": "A"
+    },
+    {
+        "name": "Buff-breasted Sandpiper",
+        "scientificName": "Calidris subruficollis",
+        "category": "A"
+    },
+    {
+        "name": "Bufflehead",
+        "scientificName": "Bucephala albeola",
+        "category": "AE"
+    },
+    {
+        "name": "Bullfinch",
+        "scientificName": "Pyrrhula pyrrhula",
+        "category": "AF"
+    },
+    {
+        "name": "Buzzard",
+        "scientificName": "Buteo buteo",
+        "category": "AE*F"
+    },
+    {
+        "name": "Cabot's Tern",
+        "scientificName": "Thalasseus acuflavidus",
+        "category": "A"
+    },
+    {
+        "name": "Cackling Goose",
+        "scientificName": "Branta hutchinsii",
+        "category": "AE"
+    },
+    {
+        "name": "Calandra Lark",
+        "scientificName": "Melanocorypha calandra",
+        "category": "A"
+    },
+    {
+        "name": "Canada Goose",
+        "scientificName": "Branta canadensis",
+        "category": "AC2E*"
+    },
+    {
+        "name": "Canvasback",
+        "scientificName": "Aythya valisineria",
+        "category": "AE"
+    },
+    {
+        "name": "Cape May Warbler",
+        "scientificName": "Setophaga tigrina",
+        "category": "A"
+    },
+    {
+        "name": "Capercaillie",
+        "scientificName": "Tetrao urogallus",
+        "category": "C3E*F"
+    },
+    {
+        "name": "Carrion Crow",
+        "scientificName": "Corvus corone",
+        "category": "AF"
+    },
+    {
+        "name": "Caspian Gull",
+        "scientificName": "Larus cachinnans",
+        "category": "A"
+    },
+    {
+        "name": "Caspian Plover",
+        "scientificName": "Charadrius asiaticus",
+        "category": "A"
+    },
+    {
+        "name": "Caspian Tern",
+        "scientificName": "Hydroprogne caspia",
+        "category": "A"
+    },
+    {
+        "name": "Cattle Egret",
+        "scientificName": "Bubulcus ibis",
+        "category": "AE"
+    },
+    {
+        "name": "Cedar Waxwing",
+        "scientificName": "Bombycilla cedrorum",
+        "category": "AE"
+    },
+    {
+        "name": "Cetti's Warbler",
+        "scientificName": "Cettia cetti",
+        "category": "A"
+    },
+    {
+        "name": "Chaffinch",
+        "scientificName": "Fringilla coelebs",
+        "category": "AEF"
+    },
+    {
+        "name": "Chestnut Bunting",
+        "scientificName": "Emberiza rutila",
+        "category": "A"
+    },
+    {
+        "name": "Chestnut-eared Bunting",
+        "scientificName": "Emberiza fucata",
+        "category": "A"
+    },
+    {
+        "name": "Chestnut-sided Warbler",
+        "scientificName": "Setophaga pensylvanica",
+        "category": "A"
+    },
+    {
+        "name": "Chiffchaff",
+        "scientificName": "Phylloscopus collybita",
+        "category": "A"
+    },
+    {
+        "name": "Chimney Swift",
+        "scientificName": "Chaetura pelagica",
+        "category": "A"
+    },
+    {
+        "name": "Chinese Pond Heron",
+        "scientificName": "Ardeola bacchus",
+        "category": "A"
+    },
+    {
+        "name": "Chough",
+        "scientificName": "Pyrrhocorax pyrrhocorax",
+        "category": "AE*F"
+    },
+    {
+        "name": "Cirl Bunting",
+        "scientificName": "Emberiza cirlus",
+        "category": "A"
+    },
+    {
+        "name": "Citril Finch",
+        "scientificName": "Carduelis citrinella",
+        "category": "A"
+    },
+    {
+        "name": "Citrine Wagtail",
+        "scientificName": "Motacilla citreola",
+        "category": "A"
+    },
+    {
+        "name": "Coal Tit",
+        "scientificName": "Periparus ater",
+        "category": "AF"
+    },
+    {
+        "name": "Collared Dove",
+        "scientificName": "Streptopelia decaocto",
+        "category": "A"
+    },
+    {
+        "name": "Collared Flycatcher",
+        "scientificName": "Ficedula albicollis",
+        "category": "A"
+    },
+    {
+        "name": "Collared Pratincole",
+        "scientificName": "Glareola pratincola",
+        "category": "A"
+    },
+    {
+        "name": "Common Guillemot",
+        "scientificName": "Uria aalge",
+        "category": "AF"
+    },
+    {
+        "name": "Common Gull",
+        "scientificName": "Larus canus",
+        "category": "AF"
+    },
+    {
+        "name": "Common Nighthawk",
+        "scientificName": "Chordeiles minor",
+        "category": "A"
+    },
+    {
+        "name": "Common Redpoll",
+        "scientificName": "Acanthis flammea",
+        "category": "AF"
+    },
+    {
+        "name": "Common Rosefinch",
+        "scientificName": "Carpodacus erythrinus",
+        "category": "A"
+    },
+    {
+        "name": "Common Sandpiper",
+        "scientificName": "Actitis hypoleucos",
+        "category": "A"
+    },
+    {
+        "name": "Common Scoter",
+        "scientificName": "Melanitta nigra",
+        "category": "AF"
+    },
+    {
+        "name": "Common Tern",
+        "scientificName": "Sterna hirundo",
+        "category": "AF"
+    },
+    {
+        "name": "Common Yellowthroat",
+        "scientificName": "Geothlypis trichas",
+        "category": "A"
+    },
+    {
+        "name": "Coot",
+        "scientificName": "Fulica atra",
+        "category": "AF"
+    },
+    {
+        "name": "Cormorant",
+        "scientificName": "Phalacrocorax carbo",
+        "category": "AF"
+    },
+    {
+        "name": "Corn Bunting",
+        "scientificName": "Emberiza calandra",
+        "category": "AF"
+    },
+    {
+        "name": "Corncrake",
+        "scientificName": "Crex crex",
+        "category": "AE*F"
+    },
+    {
+        "name": "Cory's Shearwater",
+        "scientificName": "Calonectris borealis",
+        "category": "AF"
+    },
+    {
+        "name": "Crag Martin",
+        "scientificName": "Ptyonoprogne rupestris",
+        "category": "AF"
+    },
+    {
+        "name": "Crane",
+        "scientificName": "Grus grus",
+        "category": "AE*F"
+    },
+    {
+        "name": "Cream-coloured Courser",
+        "scientificName": "Cursorius cursor",
+        "category": "A"
+    },
+    {
+        "name": "Crested Lark",
+        "scientificName": "Galerida cristata",
+        "category": "AEF"
+    },
+    {
+        "name": "Crested Tit",
+        "scientificName": "Lophophanes cristatus",
+        "category": "A"
+    },
+    {
+        "name": "Cretzschmar's Bunting",
+        "scientificName": "Emberiza caesia",
+        "category": "A"
+    },
+    {
+        "name": "Crossbill",
+        "scientificName": "Loxia curvirostra",
+        "category": "AF"
+    },
+    {
+        "name": "Cuckoo",
+        "scientificName": "Cuculus canorus",
+        "category": "AF"
+    },
+    {
+        "name": "Curlew",
+        "scientificName": "Numenius arquata",
+        "category": "AF"
+    },
+    {
+        "name": "Curlew Sandpiper",
+        "scientificName": "Calidris ferruginea",
+        "category": "A"
+    },
+    {
+        "name": "Dalmatian Pelican",
+        "scientificName": "Pelecanus crispus",
+        "category": "AF"
+    },
+    {
+        "name": "Dark-eyed Junco",
+        "scientificName": "Junco hyemalis",
+        "category": "AE"
+    },
+    {
+        "name": "Dartford Warbler",
+        "scientificName": "Curruca undata",
+        "category": "A"
+    },
+    {
+        "name": "Daurian Shrike",
+        "scientificName": "Lanius isabellinus",
+        "category": "A"
+    },
+    {
+        "name": "Desert Wheatear",
+        "scientificName": "Oenanthe deserti",
+        "category": "A"
+    },
+    {
+        "name": "Dipper",
+        "scientificName": "Cinclus cinclus",
+        "category": "AF"
+    },
+    {
+        "name": "Dotterel",
+        "scientificName": "Charadrius morinellus",
+        "category": "A"
+    },
+    {
+        "name": "Double-crested Cormorant",
+        "scientificName": "Nannopterum auritum",
+        "category": "AE"
+    },
+    {
+        "name": "Dunlin",
+        "scientificName": "Calidris alpina",
+        "category": "AF"
+    },
+    {
+        "name": "Dunnock",
+        "scientificName": "Prunella modularis",
+        "category": "AF"
+    },
+    {
+        "name": "Dusky Thrush",
+        "scientificName": "Turdus eunomus",
+        "category": "A"
+    },
+    {
+        "name": "Dusky Warbler",
+        "scientificName": "Phylloscopus fuscatus",
+        "category": "A"
+    },
+    {
+        "name": "Eastern Black-eared Wheatear",
+        "scientificName": "Oenanthe melanoleuca",
+        "category": "A"
+    },
+    {
+        "name": "Eastern Bonelli's Warbler",
+        "scientificName": "Phylloscopus orientalis",
+        "category": "A"
+    },
+    {
+        "name": "Eastern Crowned Warbler",
+        "scientificName": "Phylloscopus coronatus",
+        "category": "A"
+    },
+    {
+        "name": "Eastern Kingbird",
+        "scientificName": "Tyrannus tyrannus",
+        "category": "A"
+    },
+    {
+        "name": "Eastern Olivaceous Warbler",
+        "scientificName": "Iduna pallida",
+        "category": "A"
+    },
+    {
+        "name": "Eastern Orphean Warbler",
+        "scientificName": "Curruca crassirostris",
+        "category": "A"
+    },
+    {
+        "name": "Eastern Phoebe",
+        "scientificName": "Sayornis phoebe",
+        "category": "A"
+    },
+    {
+        "name": "Eastern Subalpine Warbler",
+        "scientificName": "Curruca cantillans",
+        "category": "A"
+    },
+    {
+        "name": "Eastern Towhee",
+        "scientificName": "Pipilo erythrophthalmus",
+        "category": "A"
+    },
+    {
+        "name": "Eastern Yellow Wagtail",
+        "scientificName": "Motacilla tschutschensis",
+        "category": "A"
+    },
+    {
+        "name": "Egyptian Goose",
+        "scientificName": "Alopochen aegyptiaca",
+        "category": "C1C5E*"
+    },
+    {
+        "name": "Egyptian Nightjar",
+        "scientificName": "Caprimulgus aegyptius",
+        "category": "A"
+    },
+    {
+        "name": "Egyptian Vulture",
+        "scientificName": "Neophron percnopterus",
+        "category": "BDE"
+    },
+    {
+        "name": "Eider",
+        "scientificName": "Somateria mollissima",
+        "category": "AF"
+    },
+    {
+        "name": "Elegant Tern",
+        "scientificName": "Thalasseus elegans",
+        "category": "A"
+    },
+    {
+        "name": "Eleonora's Falcon",
+        "scientificName": "Falco eleonorae",
+        "category": "A"
+    },
+    {
+        "name": "Eskimo Curlew",
+        "scientificName": "Numenius borealis",
+        "category": "B"
+    },
+    {
+        "name": "Evening Grosbeak",
+        "scientificName": "Hesperiphona vespertina",
+        "category": "A"
+    },
+    {
+        "name": "Eyebrowed Thrush",
+        "scientificName": "Turdus obscurus",
+        "category": "A"
+    },
+    {
+        "name": "Falcated Duck",
+        "scientificName": "Mareca falcata",
+        "category": "AE"
+    },
+    {
+        "name": "Fan-tailed Warbler",
+        "scientificName": "Cisticola juncidis",
+        "category": "A"
+    },
+    {
+        "name": "Ferruginous Duck",
+        "scientificName": "Aythya nyroca",
+        "category": "AE"
+    },
+    {
+        "name": "Fieldfare",
+        "scientificName": "Turdus pilaris",
+        "category": "AF"
+    },
+    {
+        "name": "Firecrest",
+        "scientificName": "Regulus ignicapilla",
+        "category": "A"
+    },
+    {
+        "name": "Forster's Tern",
+        "scientificName": "Sterna forsteri",
+        "category": "A"
+    },
+    {
+        "name": "Franklin's Gull",
+        "scientificName": "Leucophaeus pipixcan",
+        "category": "A"
+    },
+    {
+        "name": "Fulmar",
+        "scientificName": "Fulmarus glacialis",
+        "category": "AF"
+    },
+    {
+        "name": "Gadwall",
+        "scientificName": "Mareca strepera",
+        "category": "AC2E*F"
+    },
+    {
+        "name": "Gannet",
+        "scientificName": "Morus bassanus",
+        "category": "AF"
+    },
+    {
+        "name": "Garden Warbler",
+        "scientificName": "Sylvia borin",
+        "category": "AF"
+    },
+    {
+        "name": "Garganey",
+        "scientificName": "Spatula querquedula",
+        "category": "AF"
+    },
+    {
+        "name": "Glaucous Gull",
+        "scientificName": "Larus hyperboreus",
+        "category": "AF"
+    },
+    {
+        "name": "Glaucous-winged Gull",
+        "scientificName": "Larus glaucescens",
+        "category": "A"
+    },
+    {
+        "name": "Glossy Ibis",
+        "scientificName": "Plegadis falcinellus",
+        "category": "AE"
+    },
+    {
+        "name": "Goldcrest",
+        "scientificName": "Regulus regulus",
+        "category": "AF"
+    },
+    {
+        "name": "Golden Eagle",
+        "scientificName": "Aquila chrysaetos",
+        "category": "AEF"
+    },
+    {
+        "name": "Golden Oriole",
+        "scientificName": "Oriolus oriolus",
+        "category": "A"
+    },
+    {
+        "name": "Golden Pheasant",
+        "scientificName": "Chrysolophus pictus",
+        "category": "C1E*"
+    },
+    {
+        "name": "Golden Plover",
+        "scientificName": "Pluvialis apricaria",
+        "category": "AF"
+    },
+    {
+        "name": "Goldeneye",
+        "scientificName": "Bucephala clangula",
+        "category": "AE*F"
+    },
+    {
+        "name": "Golden-winged Warbler",
+        "scientificName": "Vermivora chrysoptera",
+        "category": "A"
+    },
+    {
+        "name": "Goldfinch",
+        "scientificName": "Carduelis carduelis",
+        "category": "AF"
+    },
+    {
+        "name": "Goosander",
+        "scientificName": "Mergus merganser",
+        "category": "AF"
+    },
+    {
+        "name": "Goshawk",
+        "scientificName": "Accipiter gentilis",
+        "category": "AC3E*F"
+    },
+    {
+        "name": "Grasshopper Warbler",
+        "scientificName": "Locustella naevia",
+        "category": "A"
+    },
+    {
+        "name": "Great Auk",
+        "scientificName": "Pinguinus impennis",
+        "category": "BF"
+    },
+    {
+        "name": "Great Black-backed Gull",
+        "scientificName": "Larus marinus",
+        "category": "AF"
+    },
+    {
+        "name": "Great Black-headed Gull",
+        "scientificName": "Ichthyaetus ichthyaetus",
+        "category": "B"
+    },
+    {
+        "name": "Great Blue Heron",
+        "scientificName": "Ardea herodias",
+        "category": "A"
+    },
+    {
+        "name": "Great Bustard",
+        "scientificName": "Otis tarda",
+        "category": "AE*F"
+    },
+    {
+        "name": "Great Crested Grebe",
+        "scientificName": "Podiceps cristatus",
+        "category": "AF"
+    },
+    {
+        "name": "Great Grey Shrike",
+        "scientificName": "Lanius excubitor",
+        "category": "AEF"
+    },
+    {
+        "name": "Great Knot",
+        "scientificName": "Calidris tenuirostris",
+        "category": "A"
+    },
+    {
+        "name": "Great Northern Diver",
+        "scientificName": "Gavia immer",
+        "category": "AF"
+    },
+    {
+        "name": "Great Reed Warbler",
+        "scientificName": "Acrocephalus arundinaceus",
+        "category": "A"
+    },
+    {
+        "name": "Great Shearwater",
+        "scientificName": "Ardenna gravis",
+        "category": "A"
+    },
+    {
+        "name": "Great Skua",
+        "scientificName": "Stercorarius skua",
+        "category": "AF"
+    },
+    {
+        "name": "Great Snipe",
+        "scientificName": "Gallinago media",
+        "category": "AF"
+    },
+    {
+        "name": "Great Spotted Cuckoo",
+        "scientificName": "Clamator glandarius",
+        "category": "A"
+    },
+    {
+        "name": "Great Spotted Woodpecker",
+        "scientificName": "Dendrocopos major",
+        "category": "AF"
+    },
+    {
+        "name": "Great Tit",
+        "scientificName": "Parus major",
+        "category": "AF"
+    },
+    {
+        "name": "Great White Egret",
+        "scientificName": "Ardea alba",
+        "category": "A"
+    },
+    {
+        "name": "Greater Sand Plover",
+        "scientificName": "Charadrius leschenaultii",
+        "category": "A"
+    },
+    {
+        "name": "Greater Yellowlegs",
+        "scientificName": "Tringa melanoleuca",
+        "category": "A"
+    },
+    {
+        "name": "Green Heron",
+        "scientificName": "Butorides virescens",
+        "category": "A"
+    },
+    {
+        "name": "Green Sandpiper",
+        "scientificName": "Tringa ochropus",
+        "category": "AF"
+    },
+    {
+        "name": "Green Warbler",
+        "scientificName": "Phylloscopus nitidus",
+        "category": "A"
+    },
+    {
+        "name": "Green Woodpecker",
+        "scientificName": "Picus viridis",
+        "category": "AF"
+    },
+    {
+        "name": "Greenfinch",
+        "scientificName": "Chloris chloris",
+        "category": "AEF"
+    },
+    {
+        "name": "Greenish Warbler",
+        "scientificName": "Phylloscopus trochiloides",
+        "category": "A"
+    },
+    {
+        "name": "Greenshank",
+        "scientificName": "Tringa nebularia",
+        "category": "AF"
+    },
+    {
+        "name": "Green-winged Teal",
+        "scientificName": "Anas carolinensis",
+        "category": "A"
+    },
+    {
+        "name": "Grey Catbird",
+        "scientificName": "Dumetella carolinensis",
+        "category": "A"
+    },
+    {
+        "name": "Grey Heron",
+        "scientificName": "Ardea cinerea",
+        "category": "AF"
+    },
+    {
+        "name": "Grey Partridge",
+        "scientificName": "Perdix perdix",
+        "category": "AC2E*F"
+    },
+    {
+        "name": "Grey Phalarope",
+        "scientificName": "Phalaropus fulicarius",
+        "category": "AF"
+    },
+    {
+        "name": "Grey Plover",
+        "scientificName": "Pluvialis squatarola",
+        "category": "AF"
+    },
+    {
+        "name": "Grey Wagtail",
+        "scientificName": "Motacilla cinerea",
+        "category": "AF"
+    },
+    {
+        "name": "Grey-cheeked Thrush",
+        "scientificName": "Catharus minimus",
+        "category": "A"
+    },
+    {
+        "name": "Greylag Goose",
+        "scientificName": "Anser anser",
+        "category": "AC2C4E*F"
+    },
+    {
+        "name": "Grey-tailed Tattler",
+        "scientificName": "Tringa brevipes",
+        "category": "A"
+    },
+    {
+        "name": "Gull-billed Tern",
+        "scientificName": "Gelochelidon nilotica",
+        "category": "A"
+    },
+    {
+        "name": "Gyr Falcon",
+        "scientificName": "Falco rusticolus",
+        "category": "AEF"
+    },
+    {
+        "name": "Harlequin Duck",
+        "scientificName": "Histrionicus histrionicus",
+        "category": "A"
+    },
+    {
+        "name": "Hawfinch",
+        "scientificName": "Coccothraustes coccothraustes",
+        "category": "AF"
+    },
+    {
+        "name": "Hawk Owl",
+        "scientificName": "Surnia ulula",
+        "category": "AF"
+    },
+    {
+        "name": "Hen Harrier",
+        "scientificName": "Circus cyaneus",
+        "category": "AF"
+    },
+    {
+        "name": "Hermit Thrush",
+        "scientificName": "Catharus guttatus",
+        "category": "A"
+    },
+    {
+        "name": "Herring Gull",
+        "scientificName": "Larus argentatus",
+        "category": "AF"
+    },
+    {
+        "name": "Hobby",
+        "scientificName": "Falco subbuteo",
+        "category": "AF"
+    },
+    {
+        "name": "Honey-buzzard",
+        "scientificName": "Pernis apivorus",
+        "category": "A"
+    },
+    {
+        "name": "Hooded Crow",
+        "scientificName": "Corvus cornix",
+        "category": "AF"
+    },
+    {
+        "name": "Hooded Merganser",
+        "scientificName": "Lophodytes cucullatus",
+        "category": "AE"
+    },
+    {
+        "name": "Hooded Warbler",
+        "scientificName": "Setophaga citrina",
+        "category": "A"
+    },
+    {
+        "name": "Hoopoe",
+        "scientificName": "Upupa epops",
+        "category": "AE"
+    },
+    {
+        "name": "House Martin",
+        "scientificName": "Delichon urbicum",
+        "category": "AF"
+    },
+    {
+        "name": "House Sparrow",
+        "scientificName": "Passer domesticus",
+        "category": "AF"
+    },
+    {
+        "name": "Hudsonian Godwit",
+        "scientificName": "Limosa haemastica",
+        "category": "A"
+    },
+    {
+        "name": "Hudsonian Whimbrel",
+        "scientificName": "Numenius hudsonicus",
+        "category": "A"
+    },
+    {
+        "name": "Hume's Warbler",
+        "scientificName": "Phylloscopus humei",
+        "category": "A"
+    },
+    {
+        "name": "Iberian Chiffchaff",
+        "scientificName": "Phylloscopus ibericus",
+        "category": "A"
+    },
+    {
+        "name": "Iceland Gull",
+        "scientificName": "Larus glaucoides",
+        "category": "A"
+    },
+    {
+        "name": "Icterine Warbler",
+        "scientificName": "Hippolais icterina",
+        "category": "A"
+    },
+    {
+        "name": "Indigo Bunting",
+        "scientificName": "Passerina cyanea",
+        "category": "AE"
+    },
+    {
+        "name": "Isabelline Wheatear",
+        "scientificName": "Oenanthe isabellina",
+        "category": "A"
+    },
+    {
+        "name": "Ivory Gull",
+        "scientificName": "Pagophila eburnea",
+        "category": "A"
+    },
+    {
+        "name": "Jack Snipe",
+        "scientificName": "Lymnocryptes minimus",
+        "category": "AF"
+    },
+    {
+        "name": "Jackdaw",
+        "scientificName": "Coloeus monedula",
+        "category": "AF"
+    },
+    {
+        "name": "Jay",
+        "scientificName": "Garrulus glandarius",
+        "category": "AF"
+    },
+    {
+        "name": "Kentish Plover",
+        "scientificName": "Charadrius alexandrinus",
+        "category": "A"
+    },
+    {
+        "name": "Kestrel",
+        "scientificName": "Falco tinnunculus",
+        "category": "AF"
+    },
+    {
+        "name": "Killdeer",
+        "scientificName": "Charadrius vociferus",
+        "category": "A"
+    },
+    {
+        "name": "King Eider",
+        "scientificName": "Somateria spectabilis",
+        "category": "A"
+    },
+    {
+        "name": "Kingfisher",
+        "scientificName": "Alcedo atthis",
+        "category": "AF"
+    },
+    {
+        "name": "Kittiwake",
+        "scientificName": "Rissa tridactyla",
+        "category": "AF"
+    },
+    {
+        "name": "Knot",
+        "scientificName": "Calidris canutus",
+        "category": "AF"
+    },
+    {
+        "name": "Lady Amherst's Pheasant",
+        "scientificName": "Chrysolophus amherstiae",
+        "category": "C6E*"
+    },
+    {
+        "name": "Lanceolated Warbler",
+        "scientificName": "Locustella lanceolata",
+        "category": "A"
+    },
+    {
+        "name": "Lapland Bunting",
+        "scientificName": "Calcarius lapponicus",
+        "category": "AF"
+    },
+    {
+        "name": "Lapwing",
+        "scientificName": "Vanellus vanellus",
+        "category": "AF"
+    },
+    {
+        "name": "Lark Sparrow",
+        "scientificName": "Chondestes grammacus",
+        "category": "A"
+    },
+    {
+        "name": "Laughing Gull",
+        "scientificName": "Leucophaeus atricilla",
+        "category": "A"
+    },
+    {
+        "name": "Leach's Petrel",
+        "scientificName": "Hydrobates leucorhous",
+        "category": "AF"
+    },
+    {
+        "name": "Least Sandpiper",
+        "scientificName": "Calidris minutilla",
+        "category": "A"
+    },
+    {
+        "name": "Least Tern",
+        "scientificName": "Sternula antillarum",
+        "category": "A"
+    },
+    {
+        "name": "Lesser Black-backed Gull",
+        "scientificName": "Larus fuscus",
+        "category": "AF"
+    },
+    {
+        "name": "Lesser Crested Tern",
+        "scientificName": "Thalasseus bengalensis",
+        "category": "A"
+    },
+    {
+        "name": "Lesser Grey Shrike",
+        "scientificName": "Lanius minor",
+        "category": "A"
+    },
+    {
+        "name": "Lesser Kestrel",
+        "scientificName": "Falco naumanni",
+        "category": "A"
+    },
+    {
+        "name": "Lesser Redpoll",
+        "scientificName": "Acanthis cabaret",
+        "category": "A"
+    },
+    {
+        "name": "Lesser Sand Plover",
+        "scientificName": "Charadrius mongolus",
+        "category": "A"
+    },
+    {
+        "name": "Lesser Scaup",
+        "scientificName": "Aythya affinis",
+        "category": "A"
+    },
+    {
+        "name": "Lesser Spotted Woodpecker",
+        "scientificName": "Dryobates minor",
+        "category": "AF"
+    },
+    {
+        "name": "Lesser White-fronted Goose",
+        "scientificName": "Anser erythropus",
+        "category": "AE*F"
+    },
+    {
+        "name": "Lesser Whitethroat",
+        "scientificName": "Curruca curruca",
+        "category": "AF"
+    },
+    {
+        "name": "Lesser Yellowlegs",
+        "scientificName": "Tringa flavipes",
+        "category": "A"
+    },
+    {
+        "name": "Linnet",
+        "scientificName": "Linaria cannabina",
+        "category": "AF"
+    },
+    {
+        "name": "Little Auk",
+        "scientificName": "Alle alle",
+        "category": "AF"
+    },
+    {
+        "name": "Little Bittern",
+        "scientificName": "Ixobrychus minutus",
+        "category": "A"
+    },
+    {
+        "name": "Little Bunting",
+        "scientificName": "Emberiza pusilla",
+        "category": "A"
+    },
+    {
+        "name": "Little Bustard",
+        "scientificName": "Tetrax tetrax",
+        "category": "AF"
+    },
+    {
+        "name": "Little Crake",
+        "scientificName": "Zapornia parva",
+        "category": "A"
+    },
+    {
+        "name": "Little Egret",
+        "scientificName": "Egretta garzetta",
+        "category": "AF"
+    },
+    {
+        "name": "Little Grebe",
+        "scientificName": "Tachybaptus ruficollis",
+        "category": "AF"
+    },
+    {
+        "name": "Little Gull",
+        "scientificName": "Hydrocoloeus minutus",
+        "category": "AF"
+    },
+    {
+        "name": "Little Owl",
+        "scientificName": "Athene noctua",
+        "category": "C1E*F"
+    },
+    {
+        "name": "Little Ringed Plover",
+        "scientificName": "Charadrius dubius",
+        "category": "A"
+    },
+    {
+        "name": "Little Stint",
+        "scientificName": "Calidris minuta",
+        "category": "A"
+    },
+    {
+        "name": "Little Swift",
+        "scientificName": "Apus affinis",
+        "category": "A"
+    },
+    {
+        "name": "Little Tern",
+        "scientificName": "Sternula albifrons",
+        "category": "A"
+    },
+    {
+        "name": "Little Whimbrel",
+        "scientificName": "Numenius minutus",
+        "category": "A"
+    },
+    {
+        "name": "Long-billed Dowitcher",
+        "scientificName": "Limnodromus scolopaceus",
+        "category": "A"
+    },
+    {
+        "name": "Long-billed Murrelet",
+        "scientificName": "Brachyramphus perdix",
+        "category": "A"
+    },
+    {
+        "name": "Long-eared Owl",
+        "scientificName": "Asio otus",
+        "category": "AF"
+    },
+    {
+        "name": "Long-legged Buzzard",
+        "scientificName": "Buteo rufinus",
+        "category": "A"
+    },
+    {
+        "name": "Long-tailed Duck",
+        "scientificName": "Clangula hyemalis",
+        "category": "AF"
+    },
+    {
+        "name": "Long-tailed Shrike",
+        "scientificName": "Lanius schach",
+        "category": "A"
+    },
+    {
+        "name": "Long-tailed Skua",
+        "scientificName": "Stercorarius longicaudus",
+        "category": "AF"
+    },
+    {
+        "name": "Long-tailed Tit",
+        "scientificName": "Aegithalos caudatus",
+        "category": "AF"
+    },
+    {
+        "name": "Long-toed Stint",
+        "scientificName": "Calidris subminuta",
+        "category": "A"
+    },
+    {
+        "name": "Macqueen's Bustard",
+        "scientificName": "Chlamydotis macqueenii",
+        "category": "A"
+    },
+    {
+        "name": "Magnificent Frigatebird",
+        "scientificName": "Fregata magnificens",
+        "category": "A"
+    },
+    {
+        "name": "Magnolia Warbler",
+        "scientificName": "Setophaga magnolia",
+        "category": "AE"
+    },
+    {
+        "name": "Magpie",
+        "scientificName": "Pica pica",
+        "category": "AF"
+    },
+    {
+        "name": "Mallard",
+        "scientificName": "Anas platyrhynchos",
+        "category": "AC2C4E*F"
+    },
+    {
+        "name": "Mandarin Duck",
+        "scientificName": "Aix galericulata",
+        "category": "C1E*"
+    },
+    {
+        "name": "Manx Shearwater",
+        "scientificName": "Puffinus puffinus",
+        "category": "AF"
+    },
+    {
+        "name": "Marmora's Warbler",
+        "scientificName": "Curruca sarda",
+        "category": "A"
+    },
+    {
+        "name": "Marsh Harrier",
+        "scientificName": "Circus aeruginosus",
+        "category": "AF"
+    },
+    {
+        "name": "Marsh Sandpiper",
+        "scientificName": "Tringa stagnatilis",
+        "category": "A"
+    },
+    {
+        "name": "Marsh Tit",
+        "scientificName": "Poecile palustris",
+        "category": "A"
+    },
+    {
+        "name": "Marsh Warbler",
+        "scientificName": "Acrocephalus palustris",
+        "category": "A"
+    },
+    {
+        "name": "Masked Shrike",
+        "scientificName": "Lanius nubicus",
+        "category": "A"
+    },
+    {
+        "name": "Meadow Pipit",
+        "scientificName": "Anthus pratensis",
+        "category": "AF"
+    },
+    {
+        "name": "Mediterranean Gull",
+        "scientificName": "Ichthyaetus melanocephalus",
+        "category": "A"
+    },
+    {
+        "name": "Mediterranean Short-toed Lark",
+        "scientificName": "Alaudala rufescens",
+        "category": "A"
+    },
+    {
+        "name": "Melodious Warbler",
+        "scientificName": "Hippolais polyglotta",
+        "category": "A"
+    },
+    {
+        "name": "Merlin",
+        "scientificName": "Falco columbarius",
+        "category": "AF"
+    },
+    {
+        "name": "Mistle Thrush",
+        "scientificName": "Turdus viscivorus",
+        "category": "AF"
+    },
+    {
+        "name": "Moltoni's Subalpine Warbler",
+        "scientificName": "Curruca subalpina",
+        "category": "A"
+    },
+    {
+        "name": "Montagu's Harrier",
+        "scientificName": "Circus pygargus",
+        "category": "AF"
+    },
+    {
+        "name": "Moorhen",
+        "scientificName": "Gallinula chloropus",
+        "category": "AF"
+    },
+    {
+        "name": "Mourning Dove",
+        "scientificName": "Zenaida macroura",
+        "category": "A"
+    },
+    {
+        "name": "Moussier's Redstart",
+        "scientificName": "Phoenicurus moussieri",
+        "category": "A"
+    },
+    {
+        "name": "Mute Swan",
+        "scientificName": "Cygnus olor",
+        "category": "AC2F"
+    },
+    {
+        "name": "Naumann's Thrush",
+        "scientificName": "Turdus naumanni",
+        "category": "A"
+    },
+    {
+        "name": "Night-heron",
+        "scientificName": "Nycticorax nycticorax",
+        "category": "AE*F"
+    },
+    {
+        "name": "Nightingale",
+        "scientificName": "Luscinia megarhynchos",
+        "category": "A"
+    },
+    {
+        "name": "Nightjar",
+        "scientificName": "Caprimulgus europaeus",
+        "category": "AF"
+    },
+    {
+        "name": "Northern Harrier",
+        "scientificName": "Circus hudsonius",
+        "category": "A"
+    },
+    {
+        "name": "Northern Mockingbird",
+        "scientificName": "Mimus polyglottos",
+        "category": "AE"
+    },
+    {
+        "name": "Northern Parula",
+        "scientificName": "Setophaga americana",
+        "category": "AE"
+    },
+    {
+        "name": "Northern Waterthrush",
+        "scientificName": "Parkesia noveboracensis",
+        "category": "A"
+    },
+    {
+        "name": "Nutcracker",
+        "scientificName": "Nucifraga caryocatactes",
+        "category": "AF"
+    },
+    {
+        "name": "Nuthatch",
+        "scientificName": "Sitta europaea",
+        "category": "AF"
+    },
+    {
+        "name": "Olive-backed Pipit",
+        "scientificName": "Anthus hodgsoni",
+        "category": "A"
+    },
+    {
+        "name": "Olive-tree Warbler",
+        "scientificName": "Hippolais olivetorum",
+        "category": "A"
+    },
+    {
+        "name": "Oriental Pratincole",
+        "scientificName": "Glareola maldivarum",
+        "category": "A"
+    },
+    {
+        "name": "Oriental Turtle Dove",
+        "scientificName": "Streptopelia orientalis",
+        "category": "A"
+    },
+    {
+        "name": "Ortolan Bunting",
+        "scientificName": "Emberiza hortulana",
+        "category": "AE"
+    },
+    {
+        "name": "Osprey",
+        "scientificName": "Pandion haliaetus",
+        "category": "AE*F"
+    },
+    {
+        "name": "Ovenbird",
+        "scientificName": "Seiurus aurocapilla",
+        "category": "A"
+    },
+    {
+        "name": "Oystercatcher",
+        "scientificName": "Haematopus ostralegus",
+        "category": "AF"
+    },
+    {
+        "name": "Pacific Diver",
+        "scientificName": "Gavia pacifica",
+        "category": "A"
+    },
+    {
+        "name": "Pacific Golden Plover",
+        "scientificName": "Pluvialis fulva",
+        "category": "A"
+    },
+    {
+        "name": "Pacific Swift",
+        "scientificName": "Apus pacificus",
+        "category": "A"
+    },
+    {
+        "name": "Paddyfield Warbler",
+        "scientificName": "Acrocephalus agricola",
+        "category": "A"
+    },
+    {
+        "name": "Pale-legged Leaf Warbler",
+        "scientificName": "Phylloscopus tenellipes",
+        "category": "A"
+    },
+    {
+        "name": "Pallas's Grasshopper Warbler",
+        "scientificName": "Helopsaltes certhiola",
+        "category": "A"
+    },
+    {
+        "name": "Pallas's Reed Bunting",
+        "scientificName": "Emberiza pallasi",
+        "category": "A"
+    },
+    {
+        "name": "Pallas's Sandgrouse",
+        "scientificName": "Syrrhaptes paradoxus",
+        "category": "A"
+    },
+    {
+        "name": "Pallas's Warbler",
+        "scientificName": "Phylloscopus proregulus",
+        "category": "A"
+    },
+    {
+        "name": "Pallid Harrier",
+        "scientificName": "Circus macrourus",
+        "category": "A"
+    },
+    {
+        "name": "Pallid Swift",
+        "scientificName": "Apus pallidus",
+        "category": "A"
+    },
+    {
+        "name": "Parrot Crossbill",
+        "scientificName": "Loxia pytyopsittacus",
+        "category": "A"
+    },
+    {
+        "name": "Pechora Pipit",
+        "scientificName": "Anthus gustavi",
+        "category": "A"
+    },
+    {
+        "name": "Pectoral Sandpiper",
+        "scientificName": "Calidris melanotos",
+        "category": "A"
+    },
+    {
+        "name": "Penduline Tit",
+        "scientificName": "Remiz pendulinus",
+        "category": "A"
+    },
+    {
+        "name": "Peregrine",
+        "scientificName": "Falco peregrinus",
+        "category": "AEF"
+    },
+    {
+        "name": "Pheasant",
+        "scientificName": "Phasianus colchicus",
+        "category": "C1E*F"
+    },
+    {
+        "name": "Philadelphia Vireo",
+        "scientificName": "Vireo philadelphicus",
+        "category": "A"
+    },
+    {
+        "name": "Pied Flycatcher",
+        "scientificName": "Ficedula hypoleuca",
+        "category": "A"
+    },
+    {
+        "name": "Pied Wagtail",
+        "scientificName": "Motacilla alba",
+        "category": "AF"
+    },
+    {
+        "name": "Pied Wheatear",
+        "scientificName": "Oenanthe pleschanka",
+        "category": "A"
+    },
+    {
+        "name": "Pied-billed Grebe",
+        "scientificName": "Podilymbus podiceps",
+        "category": "A"
+    },
+    {
+        "name": "Pine Bunting",
+        "scientificName": "Emberiza leucocephalos",
+        "category": "A"
+    },
+    {
+        "name": "Pine Grosbeak",
+        "scientificName": "Pinicola enucleator",
+        "category": "AEF"
+    },
+    {
+        "name": "Pink-footed Goose",
+        "scientificName": "Anser brachyrhynchus",
+        "category": "AE*F"
+    },
+    {
+        "name": "Pintail",
+        "scientificName": "Anas acuta",
+        "category": "AEF"
+    },
+    {
+        "name": "Pochard",
+        "scientificName": "Aythya ferina",
+        "category": "AE*F"
+    },
+    {
+        "name": "Pomarine Skua",
+        "scientificName": "Stercorarius pomarinus",
+        "category": "AF"
+    },
+    {
+        "name": "Ptarmigan",
+        "scientificName": "Lagopus muta",
+        "category": "AF"
+    },
+    {
+        "name": "Puffin",
+        "scientificName": "Fratercula arctica",
+        "category": "AF"
+    },
+    {
+        "name": "Purple Heron",
+        "scientificName": "Ardea purpurea",
+        "category": "A"
+    },
+    {
+        "name": "Purple Martin",
+        "scientificName": "Progne subis",
+        "category": "A"
+    },
+    {
+        "name": "Purple Sandpiper",
+        "scientificName": "Calidris maritima",
+        "category": "A"
+    },
+    {
+        "name": "Quail",
+        "scientificName": "Coturnix coturnix",
+        "category": "AE*F"
+    },
+    {
+        "name": "Radde's Warbler",
+        "scientificName": "Phylloscopus schwarzi",
+        "category": "A"
+    },
+    {
+        "name": "Raven",
+        "scientificName": "Corvus corax",
+        "category": "AF"
+    },
+    {
+        "name": "Razorbill",
+        "scientificName": "Alca torda",
+        "category": "AF"
+    },
+    {
+        "name": "Red Grouse",
+        "scientificName": "Lagopus lagopus",
+        "category": "AF"
+    },
+    {
+        "name": "Red Kite",
+        "scientificName": "Milvus milvus",
+        "category": "AC3E*F"
+    },
+    {
+        "name": "Red-backed Shrike",
+        "scientificName": "Lanius collurio",
+        "category": "AF"
+    },
+    {
+        "name": "Red-billed Tropicbird",
+        "scientificName": "Phaethon aethereus",
+        "category": "AE"
+    },
+    {
+        "name": "Red-breasted Flycatcher",
+        "scientificName": "Ficedula parva",
+        "category": "A"
+    },
+    {
+        "name": "Red-breasted Goose",
+        "scientificName": "Branta ruficollis",
+        "category": "AE*F"
+    },
+    {
+        "name": "Red-breasted Merganser",
+        "scientificName": "Mergus serrator",
+        "category": "AF"
+    },
+    {
+        "name": "Red-breasted Nuthatch",
+        "scientificName": "Sitta canadensis",
+        "category": "A"
+    },
+    {
+        "name": "Red-crested Pochard",
+        "scientificName": "Netta rufina",
+        "category": "AC2E*F"
+    },
+    {
+        "name": "Red-eyed Vireo",
+        "scientificName": "Vireo olivaceus",
+        "category": "A"
+    },
+    {
+        "name": "Red-flanked Bluetail",
+        "scientificName": "Tarsiger cyanurus",
+        "category": "AE"
+    },
+    {
+        "name": "Red-footed Booby",
+        "scientificName": "Sula sula",
+        "category": "A"
+    },
+    {
+        "name": "Red-footed Falcon",
+        "scientificName": "Falco vespertinus",
+        "category": "A"
+    },
+    {
+        "name": "Redhead",
+        "scientificName": "Aythya americana",
+        "category": "AE"
+    },
+    {
+        "name": "Red-legged Partridge",
+        "scientificName": "Alectoris rufa",
+        "category": "C1E*F"
+    },
+    {
+        "name": "Red-necked Grebe",
+        "scientificName": "Podiceps grisegena",
+        "category": "AF"
+    },
+    {
+        "name": "Red-necked Nightjar",
+        "scientificName": "Caprimulgus ruficollis",
+        "category": "B"
+    },
+    {
+        "name": "Red-necked Phalarope",
+        "scientificName": "Phalaropus lobatus",
+        "category": "AF"
+    },
+    {
+        "name": "Red-necked Stint",
+        "scientificName": "Calidris ruficollis",
+        "category": "A"
+    },
+    {
+        "name": "Red-rumped Swallow",
+        "scientificName": "Cecropis daurica",
+        "category": "A"
+    },
+    {
+        "name": "Redshank",
+        "scientificName": "Tringa totanus",
+        "category": "AF"
+    },
+    {
+        "name": "Redstart",
+        "scientificName": "Phoenicurus phoenicurus",
+        "category": "AF"
+    },
+    {
+        "name": "Red-throated Diver",
+        "scientificName": "Gavia stellata",
+        "category": "AF"
+    },
+    {
+        "name": "Red-throated Pipit",
+        "scientificName": "Anthus cervinus",
+        "category": "A"
+    },
+    {
+        "name": "Red-throated Thrush",
+        "scientificName": "Turdus ruficollis",
+        "category": "A"
+    },
+    {
+        "name": "Redwing",
+        "scientificName": "Turdus iliacus",
+        "category": "AF"
+    },
+    {
+        "name": "Red-winged Blackbird",
+        "scientificName": "Agelaius phoeniceus",
+        "category": "A"
+    },
+    {
+        "name": "Reed Bunting",
+        "scientificName": "Emberiza schoeniclus",
+        "category": "AF"
+    },
+    {
+        "name": "Reed Warbler",
+        "scientificName": "Acrocephalus scirpaceus",
+        "category": "A"
+    },
+    {
+        "name": "Richard's Pipit",
+        "scientificName": "Anthus richardi",
+        "category": "AF"
+    },
+    {
+        "name": "Ring Ouzel",
+        "scientificName": "Turdus torquatus",
+        "category": "AF"
+    },
+    {
+        "name": "Ring-billed Gull",
+        "scientificName": "Larus delawarensis",
+        "category": "A"
+    },
+    {
+        "name": "Ringed Plover",
+        "scientificName": "Charadrius hiaticula",
+        "category": "AF"
+    },
+    {
+        "name": "Ring-necked Duck",
+        "scientificName": "Aythya collaris",
+        "category": "AE"
+    },
+    {
+        "name": "Ring-necked Parakeet",
+        "scientificName": "Psittacula krameri",
+        "category": "C1E*"
+    },
+    {
+        "name": "River Warbler",
+        "scientificName": "Locustella fluviatilis",
+        "category": "A"
+    },
+    {
+        "name": "Robin",
+        "scientificName": "Erithacus rubecula",
+        "category": "AF"
+    },
+    {
+        "name": "Rock Bunting",
+        "scientificName": "Emberiza cia",
+        "category": "A"
+    },
+    {
+        "name": "Rock Dove",
+        "scientificName": "Columba livia",
+        "category": "AC4E*F"
+    },
+    {
+        "name": "Rock Pipit",
+        "scientificName": "Anthus petrosus",
+        "category": "AF"
+    },
+    {
+        "name": "Rock Sparrow",
+        "scientificName": "Petronia petronia",
+        "category": "A"
+    },
+    {
+        "name": "Rock Thrush",
+        "scientificName": "Monticola saxatilis",
+        "category": "A"
+    },
+    {
+        "name": "Roller",
+        "scientificName": "Coracias garrulus",
+        "category": "A"
+    },
+    {
+        "name": "Rook",
+        "scientificName": "Corvus frugilegus",
+        "category": "AF"
+    },
+    {
+        "name": "Roseate Tern",
+        "scientificName": "Sterna dougallii",
+        "category": "A"
+    },
+    {
+        "name": "Rose-breasted Grosbeak",
+        "scientificName": "Pheucticus ludovicianus",
+        "category": "AF"
+    },
+    {
+        "name": "Rose-coloured Starling",
+        "scientificName": "Pastor roseus",
+        "category": "AE"
+    },
+    {
+        "name": "Ross's Goose",
+        "scientificName": "Anser rossii",
+        "category": "AE*"
+    },
+    {
+        "name": "Ross's Gull",
+        "scientificName": "Rhodostethia rosea",
+        "category": "A"
+    },
+    {
+        "name": "Rough-legged Buzzard",
+        "scientificName": "Buteo lagopus",
+        "category": "AEF"
+    },
+    {
+        "name": "Royal Tern",
+        "scientificName": "Thalasseus maximus",
+        "category": "A"
+    },
+    {
+        "name": "Ruby-crowned Kinglet",
+        "scientificName": "Corthylio calendula",
+        "category": "A"
+    },
+    {
+        "name": "Ruddy Duck",
+        "scientificName": "Oxyura jamaicensis",
+        "category": "C1E*"
+    },
+    {
+        "name": "Ruddy Shelduck",
+        "scientificName": "Tadorna ferruginea",
+        "category": "BDE*F"
+    },
+    {
+        "name": "Ruff",
+        "scientificName": "Calidris pugnax",
+        "category": "AF"
+    },
+    {
+        "name": "Rufous-tailed Robin",
+        "scientificName": "Larvivora sibilans",
+        "category": "A"
+    },
+    {
+        "name": "Rufous-tailed Scrub Robin",
+        "scientificName": "Cercotrichas galactotes",
+        "category": "A"
+    },
+    {
+        "name": "Rüppell's Warbler",
+        "scientificName": "Curruca ruppeli",
+        "category": "A"
+    },
+    {
+        "name": "Rustic Bunting",
+        "scientificName": "Emberiza rustica",
+        "category": "A"
+    },
+    {
+        "name": "Sabine's Gull",
+        "scientificName": "Xema sabini",
+        "category": "A"
+    },
+    {
+        "name": "Sand Martin",
+        "scientificName": "Riparia riparia",
+        "category": "AF"
+    },
+    {
+        "name": "Sanderling",
+        "scientificName": "Calidris alba",
+        "category": "AF"
+    },
+    {
+        "name": "Sandhill Crane",
+        "scientificName": "Antigone canadensis",
+        "category": "A"
+    },
+    {
+        "name": "Sandwich Tern",
+        "scientificName": "Thalasseus sandvicensis",
+        "category": "AF"
+    },
+    {
+        "name": "Sardinian Warbler",
+        "scientificName": "Curruca melanocephala",
+        "category": "A"
+    },
+    {
+        "name": "Savannah Sparrow",
+        "scientificName": "Passerculus sandwichensis",
+        "category": "A"
+    },
+    {
+        "name": "Savi's Warbler",
+        "scientificName": "Locustella luscinioides",
+        "category": "A"
+    },
+    {
+        "name": "Scarlet Tanager",
+        "scientificName": "Piranga olivacea",
+        "category": "A"
+    },
+    {
+        "name": "Scaup",
+        "scientificName": "Aythya marila",
+        "category": "AF"
+    },
+    {
+        "name": "Scopoli's Shearwater",
+        "scientificName": "Calonectris diomedea",
+        "category": "A"
+    },
+    {
+        "name": "Scops Owl",
+        "scientificName": "Otus scops",
+        "category": "A"
+    },
+    {
+        "name": "Scottish Crossbill",
+        "scientificName": "Loxia scotica",
+        "category": "A"
+    },
+    {
+        "name": "Sedge Warbler",
+        "scientificName": "Acrocephalus schoenobaenus",
+        "category": "AF"
+    },
+    {
+        "name": "Semipalmated Plover",
+        "scientificName": "Charadrius semipalmatus",
+        "category": "A"
+    },
+    {
+        "name": "Semipalmated Sandpiper",
+        "scientificName": "Calidris pusilla",
+        "category": "A"
+    },
+    {
+        "name": "Serin",
+        "scientificName": "Serinus serinus",
+        "category": "AF"
+    },
+    {
+        "name": "Shag",
+        "scientificName": "Gulosus aristotelis",
+        "category": "AF"
+    },
+    {
+        "name": "Sharp-tailed Sandpiper",
+        "scientificName": "Calidris acuminata",
+        "category": "A"
+    },
+    {
+        "name": "Shelduck",
+        "scientificName": "Tadorna tadorna",
+        "category": "AF"
+    },
+    {
+        "name": "Shore Lark",
+        "scientificName": "Eremophila alpestris",
+        "category": "AF"
+    },
+    {
+        "name": "Short-billed Dowitcher",
+        "scientificName": "Limnodromus griseus",
+        "category": "A"
+    },
+    {
+        "name": "Short-eared Owl",
+        "scientificName": "Asio flammeus",
+        "category": "AF"
+    },
+    {
+        "name": "Short-toed Eagle",
+        "scientificName": "Circaetus gallicus",
+        "category": "A"
+    },
+    {
+        "name": "Short-toed Lark",
+        "scientificName": "Calandrella brachydactyla",
+        "category": "A"
+    },
+    {
+        "name": "Short-toed Treecreeper",
+        "scientificName": "Certhia brachydactyla",
+        "category": "A"
+    },
+    {
+        "name": "Shoveler",
+        "scientificName": "Spatula clypeata",
+        "category": "AF"
+    },
+    {
+        "name": "Siberian Accentor",
+        "scientificName": "Prunella montanella",
+        "category": "A"
+    },
+    {
+        "name": "Siberian Blue Robin",
+        "scientificName": "Larvivora cyane",
+        "category": "A"
+    },
+    {
+        "name": "Siberian Rubythroat",
+        "scientificName": "Calliope calliope",
+        "category": "A"
+    },
+    {
+        "name": "Siberian Stonechat",
+        "scientificName": "Saxicola maurus",
+        "category": "A"
+    },
+    {
+        "name": "Siberian Thrush",
+        "scientificName": "Geokichla sibirica",
+        "category": "AE"
+    },
+    {
+        "name": "Siskin",
+        "scientificName": "Spinus spinus",
+        "category": "A"
+    },
+    {
+        "name": "Skylark",
+        "scientificName": "Alauda arvensis",
+        "category": "AF"
+    },
+    {
+        "name": "Slaty-backed Gull",
+        "scientificName": "Larus schistisagus",
+        "category": "A"
+    },
+    {
+        "name": "Slavonian Grebe",
+        "scientificName": "Podiceps auritus",
+        "category": "AF"
+    },
+    {
+        "name": "Slender-billed Gull",
+        "scientificName": "Chroicocephalus genei",
+        "category": "A"
+    },
+    {
+        "name": "Smew",
+        "scientificName": "Mergellus albellus",
+        "category": "AF"
+    },
+    {
+        "name": "Snipe",
+        "scientificName": "Gallinago gallinago",
+        "category": "AF"
+    },
+    {
+        "name": "Snow Bunting",
+        "scientificName": "Plectrophenax nivalis",
+        "category": "AF"
+    },
+    {
+        "name": "Snow Goose",
+        "scientificName": "Anser caerulescens",
+        "category": "AC2E*"
+    },
+    {
+        "name": "Snowy Egret",
+        "scientificName": "Egretta thula",
+        "category": "A"
+    },
+    {
+        "name": "Snowy Owl",
+        "scientificName": "Bubo scandiacus",
+        "category": "AEF"
+    },
+    {
+        "name": "Sociable Plover",
+        "scientificName": "Vanellus gregarius",
+        "category": "A"
+    },
+    {
+        "name": "Solitary Sandpiper",
+        "scientificName": "Tringa solitaria",
+        "category": "A"
+    },
+    {
+        "name": "Song Sparrow",
+        "scientificName": "Melospiza melodia",
+        "category": "AE"
+    },
+    {
+        "name": "Song Thrush",
+        "scientificName": "Turdus philomelos",
+        "category": "AF"
+    },
+    {
+        "name": "Sooty Shearwater",
+        "scientificName": "Ardenna grisea",
+        "category": "AF"
+    },
+    {
+        "name": "Sooty Tern",
+        "scientificName": "Onychoprion fuscatus",
+        "category": "A"
+    },
+    {
+        "name": "Sora Rail",
+        "scientificName": "Porzana carolina",
+        "category": "A"
+    },
+    {
+        "name": "South Polar Skua",
+        "scientificName": "Stercorarius maccormicki",
+        "category": "A"
+    },
+    {
+        "name": "Spanish Sparrow",
+        "scientificName": "Passer hispaniolensis",
+        "category": "A"
+    },
+    {
+        "name": "Sparrowhawk",
+        "scientificName": "Accipiter nisus",
+        "category": "AF"
+    },
+    {
+        "name": "Spectacled Warbler",
+        "scientificName": "Curruca conspicillata",
+        "category": "A"
+    },
+    {
+        "name": "Spoonbill",
+        "scientificName": "Platalea leucorodia",
+        "category": "AEF"
+    },
+    {
+        "name": "Spotted Crake",
+        "scientificName": "Porzana porzana",
+        "category": "AF"
+    },
+    {
+        "name": "Spotted Eagle",
+        "scientificName": "Clanga clanga",
+        "category": "B"
+    },
+    {
+        "name": "Spotted Flycatcher",
+        "scientificName": "Muscicapa striata",
+        "category": "AF"
+    },
+    {
+        "name": "Spotted Redshank",
+        "scientificName": "Tringa erythropus",
+        "category": "AF"
+    },
+    {
+        "name": "Spotted Sandpiper",
+        "scientificName": "Actitis macularius",
+        "category": "A"
+    },
+    {
+        "name": "Squacco Heron",
+        "scientificName": "Ardeola ralloides",
+        "category": "A"
+    },
+    {
+        "name": "Starling",
+        "scientificName": "Sturnus vulgaris",
+        "category": "AF"
+    },
+    {
+        "name": "Steller's Eider",
+        "scientificName": "Polysticta stelleri",
+        "category": "A"
+    },
+    {
+        "name": "Stilt Sandpiper",
+        "scientificName": "Calidris himantopus",
+        "category": "A"
+    },
+    {
+        "name": "Stock Dove",
+        "scientificName": "Columba oenas",
+        "category": "AF"
+    },
+    {
+        "name": "Stonechat",
+        "scientificName": "Saxicola rubicola",
+        "category": "A"
+    },
+    {
+        "name": "Stone-curlew",
+        "scientificName": "Burhinus oedicnemus",
+        "category": "AF"
+    },
+    {
+        "name": "Storm Petrel",
+        "scientificName": "Hydrobates pelagicus",
+        "category": "AF"
+    },
+    {
+        "name": "Summer Tanager",
+        "scientificName": "Piranga rubra",
+        "category": "A"
+    },
+    {
+        "name": "Surf Scoter",
+        "scientificName": "Melanitta perspicillata",
+        "category": "AF"
+    },
+    {
+        "name": "Swainson's Thrush",
+        "scientificName": "Catharus ustulatus",
+        "category": "A"
+    },
+    {
+        "name": "Swallow",
+        "scientificName": "Hirundo rustica",
+        "category": "AEF"
+    },
+    {
+        "name": "Swift",
+        "scientificName": "Apus apus",
+        "category": "AF"
+    },
+    {
+        "name": "Swinhoe's Petrel",
+        "scientificName": "Hydrobates monorhis",
+        "category": "A"
+    },
+    {
+        "name": "Sykes's Warbler",
+        "scientificName": "Iduna rama",
+        "category": "A"
+    },
+    {
+        "name": "Taiga Bean Goose",
+        "scientificName": "Anser fabalis",
+        "category": "AE*F"
+    },
+    {
+        "name": "Taiga Flycatcher",
+        "scientificName": "Ficedula albicilla",
+        "category": "A"
+    },
+    {
+        "name": "Tawny Owl",
+        "scientificName": "Strix aluco",
+        "category": "AF"
+    },
+    {
+        "name": "Tawny Pipit",
+        "scientificName": "Anthus campestris",
+        "category": "A"
+    },
+    {
+        "name": "Teal",
+        "scientificName": "Anas crecca",
+        "category": "AF"
+    },
+    {
+        "name": "Temminck's Stint",
+        "scientificName": "Calidris temminckii",
+        "category": "A"
+    },
+    {
+        "name": "Tengmalm's Owl",
+        "scientificName": "Aegolius funereus",
+        "category": "AF"
+    },
+    {
+        "name": "Tennessee Warbler",
+        "scientificName": "Leiothlypis peregrina",
+        "category": "A"
+    },
+    {
+        "name": "Terek Sandpiper",
+        "scientificName": "Xenus cinereus",
+        "category": "A"
+    },
+    {
+        "name": "Thick-billed Warbler",
+        "scientificName": "Arundinax aedon",
+        "category": "A"
+    },
+    {
+        "name": "Thrush Nightingale",
+        "scientificName": "Luscinia luscinia",
+        "category": "AF"
+    },
+    {
+        "name": "Tree Pipit",
+        "scientificName": "Anthus trivialis",
+        "category": "A"
+    },
+    {
+        "name": "Tree Sparrow",
+        "scientificName": "Passer montanus",
+        "category": "AF"
+    },
+    {
+        "name": "Tree Swallow",
+        "scientificName": "Tachycineta bicolor",
+        "category": "A"
+    },
+    {
+        "name": "Treecreeper",
+        "scientificName": "Certhia familiaris",
+        "category": "AF"
+    },
+    {
+        "name": "Trumpeter Finch",
+        "scientificName": "Bucanetes githagineus",
+        "category": "AE"
+    },
+    {
+        "name": "Tufted Duck",
+        "scientificName": "Aythya fuligula",
+        "category": "AF"
+    },
+    {
+        "name": "Tufted Puffin",
+        "scientificName": "Fratercula cirrhata",
+        "category": "A"
+    },
+    {
+        "name": "Tundra Bean Goose",
+        "scientificName": "Anser serrirostris",
+        "category": "AE"
+    },
+    {
+        "name": "Turkestan Shrike",
+        "scientificName": "Lanius phoenicuroides",
+        "category": "A"
+    },
+    {
+        "name": "Turnstone",
+        "scientificName": "Arenaria interpres",
+        "category": "AF"
+    },
+    {
+        "name": "Turtle Dove",
+        "scientificName": "Streptopelia turtur",
+        "category": "AF"
+    },
+    {
+        "name": "Twite",
+        "scientificName": "Linaria flavirostris",
+        "category": "AF"
+    },
+    {
+        "name": "Two-barred Crossbill",
+        "scientificName": "Loxia leucoptera",
+        "category": "A"
+    },
+    {
+        "name": "Two-barred Greenish Warbler",
+        "scientificName": "Phylloscopus plumbeitarsus",
+        "category": "A"
+    },
+    {
+        "name": "Upland Sandpiper",
+        "scientificName": "Bartramia longicauda",
+        "category": "A"
+    },
+    {
+        "name": "Varied Thrush",
+        "scientificName": "Ixoreus naevius",
+        "category": "A"
+    },
+    {
+        "name": "Veery",
+        "scientificName": "Catharus fuscescens",
+        "category": "A"
+    },
+    {
+        "name": "Velvet Scoter",
+        "scientificName": "Melanitta fusca",
+        "category": "AF"
+    },
+    {
+        "name": "Wallcreeper",
+        "scientificName": "Tichodroma muraria",
+        "category": "A"
+    },
+    {
+        "name": "Water Pipit",
+        "scientificName": "Anthus spinoletta",
+        "category": "AF"
+    },
+    {
+        "name": "Water Rail",
+        "scientificName": "Rallus aquaticus",
+        "category": "AF"
+    },
+    {
+        "name": "Waxwing",
+        "scientificName": "Bombycilla garrulus",
+        "category": "AEF"
+    },
+    {
+        "name": "Western Black-eared Wheatear",
+        "scientificName": "Oenanthe hispanica",
+        "category": "A"
+    },
+    {
+        "name": "Western Bonelli's Warbler",
+        "scientificName": "Phylloscopus bonelli",
+        "category": "A"
+    },
+    {
+        "name": "Western Orphean Warbler",
+        "scientificName": "Curruca hortensis",
+        "category": "A"
+    },
+    {
+        "name": "Western Sandpiper",
+        "scientificName": "Calidris mauri",
+        "category": "A"
+    },
+    {
+        "name": "Western Subalpine Warbler",
+        "scientificName": "Curruca iberiae",
+        "category": "A"
+    },
+    {
+        "name": "Western Swamphen",
+        "scientificName": "Porphyrio porphyrio",
+        "category": "AE"
+    },
+    {
+        "name": "Wheatear",
+        "scientificName": "Oenanthe oenanthe",
+        "category": "AF"
+    },
+    {
+        "name": "Whimbrel",
+        "scientificName": "Numenius phaeopus",
+        "category": "AF"
+    },
+    {
+        "name": "Whinchat",
+        "scientificName": "Saxicola rubetra",
+        "category": "AF"
+    },
+    {
+        "name": "Whiskered Tern",
+        "scientificName": "Chlidonias hybrida",
+        "category": "A"
+    },
+    {
+        "name": "White Stork",
+        "scientificName": "Ciconia ciconia",
+        "category": "AEF"
+    },
+    {
+        "name": "White-billed Diver",
+        "scientificName": "Gavia adamsii",
+        "category": "A"
+    },
+    {
+        "name": "White-chinned Petrel",
+        "scientificName": "Procellaria aequinoctialis",
+        "category": "A"
+    },
+    {
+        "name": "White-crowned Black Wheatear",
+        "scientificName": "Oenanthe leucopyga",
+        "category": "A"
+    },
+    {
+        "name": "White-crowned Sparrow",
+        "scientificName": "Zonotrichia leucophrys",
+        "category": "AE"
+    },
+    {
+        "name": "White-faced Storm Petrel",
+        "scientificName": "Pelagodroma marina",
+        "category": "B"
+    },
+    {
+        "name": "White-fronted Goose",
+        "scientificName": "Anser albifrons",
+        "category": "AE*F"
+    },
+    {
+        "name": "White-rumped Sandpiper",
+        "scientificName": "Calidris fuscicollis",
+        "category": "A"
+    },
+    {
+        "name": "White-rumped Swift",
+        "scientificName": "Apus caffer",
+        "category": "A"
+    },
+    {
+        "name": "White's Thrush",
+        "scientificName": "Zoothera aurea",
+        "category": "A"
+    },
+    {
+        "name": "White-tailed Eagle",
+        "scientificName": "Haliaeetus albicilla",
+        "category": "AC3E*F"
+    },
+    {
+        "name": "White-tailed Plover",
+        "scientificName": "Vanellus leucurus",
+        "category": "A"
+    },
+    {
+        "name": "Whitethroat",
+        "scientificName": "Curruca communis",
+        "category": "AF"
+    },
+    {
+        "name": "White-throated Needletail",
+        "scientificName": "Hirundapus caudacutus",
+        "category": "A"
+    },
+    {
+        "name": "White-throated Robin",
+        "scientificName": "Irania gutturalis",
+        "category": "A"
+    },
+    {
+        "name": "White-throated Sparrow",
+        "scientificName": "Zonotrichia albicollis",
+        "category": "AE"
+    },
+    {
+        "name": "White-winged Black Tern",
+        "scientificName": "Chlidonias leucopterus",
+        "category": "A"
+    },
+    {
+        "name": "White-winged Lark",
+        "scientificName": "Alauda leucoptera",
+        "category": "A"
+    },
+    {
+        "name": "White-winged Scoter",
+        "scientificName": "Melanitta deglandi",
+        "category": "A"
+    },
+    {
+        "name": "Whooper Swan",
+        "scientificName": "Cygnus cygnus",
+        "category": "AE*F"
+    },
+    {
+        "name": "Wigeon",
+        "scientificName": "Mareca penelope",
+        "category": "AE*F"
+    },
+    {
+        "name": "Willow Tit",
+        "scientificName": "Poecile montanus",
+        "category": "A"
+    },
+    {
+        "name": "Willow Warbler",
+        "scientificName": "Phylloscopus trochilus",
+        "category": "A"
+    },
+    {
+        "name": "Wilson's Petrel",
+        "scientificName": "Oceanites oceanicus",
+        "category": "A"
+    },
+    {
+        "name": "Wilson's Phalarope",
+        "scientificName": "Phalaropus tricolor",
+        "category": "A"
+    },
+    {
+        "name": "Wilson's Snipe",
+        "scientificName": "Gallinago delicata",
+        "category": "A"
+    },
+    {
+        "name": "Wilson's Warbler",
+        "scientificName": "Cardellina pusilla",
+        "category": "A"
+    },
+    {
+        "name": "Wood Sandpiper",
+        "scientificName": "Tringa glareola",
+        "category": "A"
+    },
+    {
+        "name": "Wood Thrush",
+        "scientificName": "Hylocichla mustelina",
+        "category": "A"
+    },
+    {
+        "name": "Wood Warbler",
+        "scientificName": "Phylloscopus sibilatrix",
+        "category": "A"
+    },
+    {
+        "name": "Woodchat Shrike",
+        "scientificName": "Lanius senator",
+        "category": "A"
+    },
+    {
+        "name": "Woodcock",
+        "scientificName": "Scolopax rusticola",
+        "category": "AF"
+    },
+    {
+        "name": "Woodlark",
+        "scientificName": "Lullula arborea",
+        "category": "AF"
+    },
+    {
+        "name": "Woodpigeon",
+        "scientificName": "Columba palumbus",
+        "category": "AF"
+    },
+    {
+        "name": "Wren",
+        "scientificName": "Troglodytes troglodytes",
+        "category": "AF"
+    },
+    {
+        "name": "Wryneck",
+        "scientificName": "Jynx torquilla",
+        "category": "AF"
+    },
+    {
+        "name": "Yelkouan Shearwater",
+        "scientificName": "Puffinus yelkouan",
+        "category": "A"
+    },
+    {
+        "name": "Yellow Wagtail",
+        "scientificName": "Motacilla flava",
+        "category": "AF"
+    },
+    {
+        "name": "Yellow Warbler",
+        "scientificName": "Setophaga aestiva",
+        "category": "A"
+    },
+    {
+        "name": "Yellow-bellied Flycatcher",
+        "scientificName": "Empidonax flaviventris",
+        "category": "A"
+    },
+    {
+        "name": "Yellow-bellied Sapsucker",
+        "scientificName": "Sphyrapicus varius",
+        "category": "A"
+    },
+    {
+        "name": "Yellow-billed Cuckoo",
+        "scientificName": "Coccyzus americanus",
+        "category": "A"
+    },
+    {
+        "name": "Yellow-breasted Bunting",
+        "scientificName": "Emberiza aureola",
+        "category": "AE"
+    },
+    {
+        "name": "Yellow-browed Bunting",
+        "scientificName": "Emberiza chrysophrys",
+        "category": "A"
+    },
+    {
+        "name": "Yellow-browed Warbler",
+        "scientificName": "Phylloscopus inornatus",
+        "category": "A"
+    },
+    {
+        "name": "Yellowhammer",
+        "scientificName": "Emberiza citrinella",
+        "category": "AF"
+    },
+    {
+        "name": "Yellow-legged Gull",
+        "scientificName": "Larus michahellis",
+        "category": "A"
+    },
+    {
+        "name": "Yellow-rumped Warbler",
+        "scientificName": "Setophaga coronata",
+        "category": "A"
+    },
+    {
+        "name": "Yellow-throated Vireo",
+        "scientificName": "Vireo flavifrons",
+        "category": "A"
+    },
+    {
+        "name": "Zino's Petrel",
+        "scientificName": "Pterodroma madeira",
+        "category": "A"
+    }
+]

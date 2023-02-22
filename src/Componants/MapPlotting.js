@@ -1,5 +1,5 @@
 // findings will present a map and some posts - images or videos of any sightings shared relating to that type of bird
-import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import L from "leaflet"
 import Data from "../Moderation.json"
@@ -12,6 +12,14 @@ const markerIcon = new L.Icon({
     iconSize: [30, 30]
 })
 
+const style ={
+    
+    birdDetailP:
+    {
+        marginBottom:"0px",
+    }
+}
+
 
 
 
@@ -23,7 +31,32 @@ function MapPlotting() {
         return post.name === state.birdName
     }) : Data
     
-    const apiBirdName = state.birdName.split(" ")[0]+"%20"+state.birdName.split(" ")[1]
+    let apiBirdName = ""
+    let googleURL = 'https://www.google.com/search?q='
+const getAPIName = ()=>{
+    if(state.birdName.split(" ").length > 1)
+    {
+        apiBirdName = state.birdName.split(" ")[0]+"%20"+state.birdName.split(" ")[1]
+    }
+    else
+    apiBirdName = state.birdName
+
+}
+
+    const googleBirdName = ()=>{
+        getAPIName()
+        if (state.birdName.split("'").length > 1)
+        {
+           
+            apiBirdName = state.birdName.split("'")[0]+"%27"+state.birdName.split("'")[1]
+            googleURL =googleURL + apiBirdName
+            console.log(googleURL)
+        } 
+        else{
+            googleURL =googleURL + apiBirdName
+        }  
+        }
+
     const birdDetail = ()=>{
         fetch(
             `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${apiBirdName}&format=json&origin=*`,
@@ -31,20 +64,18 @@ function MapPlotting() {
           )
             .then((res) => res.json())
             .then((data) => {   
-                console.log(data.query.search[0].snippet)           
-                setbirdData( data.query.search[0].snippet)
+                      
+                setbirdData( data.query.search[0].snippet + "..." )
             });
     }
     
-   
-    
+        
     return (
         <div>
             <h1>{state.birdName}</h1>
-            {birdDetail()}
-            <p dangerouslySetInnerHTML={{__html:birdData}}/>
 
-            <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false} id="map">
+            <MapContainer center={[51.505, -0.09]} zoom={8} scrollWheelZoom={false} id="map">
+
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
