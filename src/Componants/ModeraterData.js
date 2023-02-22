@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { NavLink } from "react-router-dom"
 
 const styles = {
     longButton: {
@@ -6,7 +7,10 @@ const styles = {
         display: 'flex',
         marginTop: '3%',
         marginBottom: '7%',
-        textAlign: 'center'
+        textAlign: 'center',
+        color: 'brown',
+        fontWeight: 'bold'
+
     },
     success: {
         textAlign: 'center',
@@ -61,9 +65,10 @@ function ModeratorData() {
     return (
         <div>
 
-            <h2> Become a Moderator</h2>
+            <h1 style={{ fontSize: '30px', marginBottom: '1%' }}> Become a Moderator</h1>
 
-            <h2> Moderators are key to what we do at RubberDucks.  If you have some basic IT skills to update a simple system and time to spare please get in touch!</h2>
+            <h2 style={{ marginBottom: '1%' }}> Moderators are key to what we do at RubberDucks.</h2>
+            <h2 style={{ marginBottom: '1%' }}>  If you have some basic IT skills to update a simple system and time to spare please get in touch!</h2>
 
             <form>
 
@@ -77,6 +82,15 @@ function ModeratorData() {
             {success && <p style={styles.success}>Form Submitted Successfully</p>}
 
             <h2> Note:  Abuse of the moderator possition will not be tolerated.  Founder members have the right to refuse Moderator privalages!</h2>
+
+            <h2>The below link is to the Moderator instruction Guide</h2>
+
+            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: '3%', marginBottom: '2%' }}>
+                <NavLink style={{ width: '60%' }} to="https://docs.google.com/document/d/17nWmTL-wiekCt8XRieUGbXKcX444x_HIX23y9SufLOo">
+                    <button style={{ width: '100%' }}>Google Doc Moderator Instructions</button>
+                </NavLink>
+            </div>
+            <h2>Only approved Moderators will be able to access this drive link</h2>
 
         </div>
 

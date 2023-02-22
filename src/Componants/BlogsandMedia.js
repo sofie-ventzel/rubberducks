@@ -60,7 +60,7 @@ function BlogsandMedia() {
 
                 )
                 // if there are no sightings bird lenth above finds 0 and skips to the paragraph to confirm nothing found
-            }) : <p>No sightings reported so far, please add a sighting if you spot this bird!</p>}
+            }) : <p style={{ fontWeight: 'bold' }}>No sightings reported so far, please add a sighting if you spot this bird! </p>}
 
         </article>
 

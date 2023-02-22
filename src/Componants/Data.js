@@ -9,6 +9,8 @@ const styles = {
     marginTop: "3%",
     marginBottom: "7%",
     textAlign: "center",
+    color: 'brown',
+    fontWeight: 'bold'
   },
   success: {
     textAlign: "center",
