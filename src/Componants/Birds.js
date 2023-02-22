@@ -29,13 +29,13 @@ function Birds() {
                     </div>
                 </div>
                 <div style={{ flexDirection: 'row' }}>
-                    <img style={{ width: '10%', height: 'auto' }} src="/Untitled.png" alt="Yellow duck" />
-                    <img style={{ width: '10%', height: 'auto' }} src="/Untitled.png" alt="Yellow duck" />
-                    <img style={{ width: '10%', height: 'auto' }} src="/Untitled.png" alt="Yellow duck" />
-                    <img style={{ width: '10%', height: 'auto' }} src="/Goose.png" alt="Goose" />
-                    <img style={{ width: '10%', height: 'auto' }} src="/Untitled.png" alt="Yellow duck" />
-                    <img style={{ width: '10%', height: 'auto' }} src="/Untitled.png" alt="Yellow duck" />
-                    <img style={{ width: '10%', height: 'auto' }} src="/Untitled.png" alt="Yellow duck" />
+                    <img style={{ width: '10%', height: 'auto' }} class="animate-bounce" src="/Untitled.png" alt="Yellow duck" />
+                    <img style={{ width: '10%', height: 'auto' }} class="animate-bounce hover:animate-none" src="/Untitled.png" alt="Yellow duck" />
+                    <img style={{ width: '10%', height: 'auto' }} class="animate-bounce hover:animate-none" src="/Untitled.png" alt="Yellow duck" />
+                    <img style={{ width: '10%', height: 'auto' }} class="animate-bounce hover:animate-none" src="/Goose.png" alt="Goose" />
+                    <img style={{ width: '10%', height: 'auto' }} class="animate-bounce hover:animate-none" src="/Untitled.png" alt="Yellow duck" />
+                    <img style={{ width: '10%', height: 'auto' }} class="animate-bounce hover:animate-none" src="/Untitled.png" alt="Yellow duck" />
+                    <img style={{ width: '10%', height: 'auto' }} class="animate-bounce" src="/Untitled.png" alt="Yellow duck" />
                 </div>
             </div>
         </>

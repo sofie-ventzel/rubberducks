@@ -24,9 +24,9 @@ function Search(props) {
             <h2>Please add sightings of common and rare birds via the add a post page</h2>
 
             <div style={styles.div}>
-                <img style={styles.image} src="/UntitledTwo.png" alt="Yellow duck" />
+                <img style={styles.image} class="hover:animate-bounce" src="/UntitledTwo.png" alt="Yellow duck" />
                 <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
-                <img style={styles.image} src="/UntitledTwo.png" alt="Yellow duck" />
+                <img style={styles.image} class="hover:animate-bounce" src="/UntitledTwo.png" alt="Yellow duck" />
             </div>
 
             <Footer />
