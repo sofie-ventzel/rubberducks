@@ -20,7 +20,7 @@ function Main(props) {
         Birdwatching is great to get outdoors and contributions to this site in
         the form of posts keep it going!
       </p>
-      <img className="h-96 w-96" src="/Goose.png" alt="Goose" />
+      <img className="h-96 w-96 animate-bounce" src="/Goose.png" alt="Goose" />
     </main>
   );
 }
