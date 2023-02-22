@@ -42,5 +42,6 @@ function RecordThis() {
                 Additional information like the age, the sex, the direction of flight or any curious behavior adds value to the observation.</p>
         </>
     )
+
 }
 export default RecordThis;

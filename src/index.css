@@ -1,12 +1,12 @@
 /* tailwind import */
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 body {
   margin: 5px 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -85,6 +85,7 @@ a {
   flex-direction: row;
   justify-content: space-around;
   text-align: center;
+  font-weight: bold;
 }
 
 p {
@@ -92,7 +93,6 @@ p {
   max-width: 75%;
   margin: 5% auto;
   line-height: 2;
-  font-weight: bold;
 }
 
 a {
@@ -126,6 +126,7 @@ div {
   width: 0 !important;
   height: 0 !important;
 }
+
 
 .IndicatorsContainer {
   width: 0 !important;
