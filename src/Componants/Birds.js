@@ -11,6 +11,7 @@ function Birds() {
 
     const handleChange = (selected) => {
         setBirdname(selected.value)
+        console.log("usestate", useState.value)
     }
 
     return (
@@ -29,13 +30,13 @@ function Birds() {
                     </div>
                 </div>
                 <div style={{ margin: '2% 0', flexDirection: 'row' }}>
-                    <img style={{ width: '10%', height: 'auto' }} class="animate-bounce" src="/Untitled.png" alt="Yellow duck" />
-                    <img style={{ width: '10%', height: 'auto' }} class="animate-bounce hover:animate-none" src="/Untitled.png" alt="Yellow duck" />
-                    <img style={{ width: '10%', height: 'auto' }} class="animate-bounce hover:animate-none" src="/Untitled.png" alt="Yellow duck" />
-                    <img style={{ width: '10%', height: 'auto' }} class="animate-bounce hover:animate-none" src="/Goose.png" alt="Goose" />
-                    <img style={{ width: '10%', height: 'auto' }} class="animate-bounce hover:animate-none" src="/Untitled.png" alt="Yellow duck" />
-                    <img style={{ width: '10%', height: 'auto' }} class="animate-bounce hover:animate-none" src="/Untitled.png" alt="Yellow duck" />
-                    <img style={{ width: '10%', height: 'auto' }} class="animate-bounce" src="/Untitled.png" alt="Yellow duck" />
+                    <img style={{ width: '10%', height: 'auto' }} className="animate-bounce" src="/Untitled.png" alt="Yellow duck" />
+                    <img style={{ width: '10%', height: 'auto' }} className="animate-bounce hover:animate-none" src="/Untitled.png" alt="Yellow duck" />
+                    <img style={{ width: '10%', height: 'auto' }} className="animate-bounce hover:animate-none" src="/Untitled.png" alt="Yellow duck" />
+                    <img style={{ width: '10%', height: 'auto' }} className="animate-bounce hover:animate-none" src="/Goose.png" alt="Goose" />
+                    <img style={{ width: '10%', height: 'auto' }} className="animate-bounce hover:animate-none" src="/Untitled.png" alt="Yellow duck" />
+                    <img style={{ width: '10%', height: 'auto' }} className="animate-bounce hover:animate-none" src="/Untitled.png" alt="Yellow duck" />
+                    <img style={{ width: '10%', height: 'auto' }} className="animate-bounce" src="/Untitled.png" alt="Yellow duck" />
                 </div>
             </div>
         </>

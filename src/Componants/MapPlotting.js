@@ -12,11 +12,11 @@ const markerIcon = new L.Icon({
     iconSize: [30, 30]
 })
 
-const style ={
-    
+const style = {
+
     birdDetailP:
     {
-        marginBottom:"0px",
+        marginBottom: "0px",
     }
 }
 
@@ -24,60 +24,59 @@ const style ={
 
 
 function MapPlotting() {
-  const [birdData, setbirdData]=useState("")
+    const [birdData, setbirdData] = useState("")
     // pulling the state value and using the special function this filters out through the function only the selected bird which is then returned as a map pin
     const { state } = useLocation()
+    console.log('map', state.birdName)
     const birds = state.birdName ? Data.filter(function (post) {
         return post.name === state.birdName
     }) : Data
-    
-    let apiBirdName = ""
-    let googleURL = 'https://www.google.com/search?q='
-const getAPIName = ()=>{
-    if(state.birdName.split(" ").length > 1)
-    {
-        apiBirdName = state.birdName.split(" ")[0]+"%20"+state.birdName.split(" ")[1]
-    }
-    else
-    apiBirdName = state.birdName
 
-}
+    // let apiBirdName = ""
+    // let googleURL = 'https://www.google.com/search?q='
+    // const getAPIName = () => {
+    //     if (state.birdName.split(" ").length > 1) {
+    //         apiBirdName = state.birdName.split(" ")[0] + "%20" + state.birdName.split(" ")[1]
+    //     }
+    //     else
+    //         apiBirdName = state.birdName
 
-    const googleBirdName = ()=>{
-        getAPIName()
-        if (state.birdName.split("'").length > 1)
-        {
-           
-            apiBirdName = state.birdName.split("'")[0]+"%27"+state.birdName.split("'")[1]
-            googleURL =googleURL + apiBirdName
-            console.log(googleURL)
-        } 
-        else{
-            googleURL =googleURL + apiBirdName
-        }  
-        }
 
-    const birdDetail = ()=>{
+
+    // const googleBirdName = () => {
+    //     getAPIName()
+    //     if (state.birdName.split("'").length > 1) {
+
+    //         apiBirdName = state.birdName.split("'")[0] + "%27" + state.birdName.split("'")[1]
+    //         googleURL = googleURL + apiBirdName
+    //         console.log(googleURL)
+    //     }
+    //     else {
+    //         googleURL = googleURL + apiBirdName
+    //     }
+    // }
+
+    const birdDetail = () => {
         fetch(
-            `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${apiBirdName}&format=json&origin=*`,
+            `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${state.birdName}&format=json&origin=*`,
             { headers: { "content-type": "application/json" } }
-          )
+        )
             .then((res) => res.json())
-            .then((data) => {   
-                      
-                setbirdData( data.query.search[0].snippet + "..." )
+            .then((data) => {
+
+                setbirdData(data.query.search[0].snippet + "...")
             });
     }
-    
-        
+
+
     return (
         <div>
             <h1>{state.birdName}</h1>
-            {googleBirdName()}
+            {/* {googleBirdName()} */}
             {birdDetail()}
-            
-            <p className= "birdDetailP"  style={style.birdDetailP} dangerouslySetInnerHTML={{__html:birdData}}></p> 
-            <a className="text-rosyPink animate-pulse" href ={googleURL}>Click here for more details</a>
+
+            <p className="birdDetailP" style={style.birdDetailP} dangerouslySetInnerHTML={{ __html: birdData }}></p>
+            <a className="text-rosyPink animate-pulse" href={`https://www.google.com/search?q=${state.birdName}`}>Click here for more details</a>
             <MapContainer center={[51.505, -0.09]} zoom={8} scrollWheelZoom={false} id="map">
 
                 <TileLayer
@@ -97,5 +96,6 @@ const getAPIName = ()=>{
         </div >
     )
 }
+
 
 export default MapPlotting;
