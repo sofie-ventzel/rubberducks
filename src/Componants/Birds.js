@@ -19,7 +19,7 @@ function Birds() {
                 <div style={{ alignItems: 'stretch' }} >
                     <img style={{ flexDirection: 'JustifyContent', marginTop: '1%', marginBottom: '1%' }} src="/HomeImage.jpg" alt="Photo of 2 keen birdwatchers" />
                 </div>
-                <div style={{ display: 'flex', position: 'absolute', right: '20%', left: '20%', bottom: '20%', }}>
+                <div style={{ display: 'flex', position: 'absolute', right: '20%', left: '20%', bottom: '22%', }}>
                     <div style={{ display: 'flex', flex: 'auto', opacity: '0.6', zIndex: 100 }}>
                         <Select onChange={handleChange} placeholder="Start typing then select your bird" options={options} styles={{ width: 'maxwidth', opacity: '0.5' }} />
                         <NavLink to="/findings"
@@ -28,7 +28,7 @@ function Birds() {
                         </NavLink>
                     </div>
                 </div>
-                <div style={{ flexDirection: 'row' }}>
+                <div style={{ margin: '2% 0', flexDirection: 'row' }}>
                     <img style={{ width: '10%', height: 'auto' }} class="animate-bounce" src="/Untitled.png" alt="Yellow duck" />
                     <img style={{ width: '10%', height: 'auto' }} class="animate-bounce hover:animate-none" src="/Untitled.png" alt="Yellow duck" />
                     <img style={{ width: '10%', height: 'auto' }} class="animate-bounce hover:animate-none" src="/Untitled.png" alt="Yellow duck" />
