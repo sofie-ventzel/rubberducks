@@ -23,6 +23,12 @@ function Search(props) {
 
             <h2>Please add sightings of common and rare birds via the add a post page</h2>
 
+            <img src="/RareBird.jpg" />
+
+            <h2 style={{ margin: '1% 0' }}>If you see this bird please post a sighting</h2>
+
+            <h2>The Wood Warbler is one of the rarest birds in Britian</h2>
+
             <div style={styles.div}>
                 <img style={styles.image} class="hover:animate-bounce" src="/UntitledTwo.png" alt="Yellow duck" />
                 <img style={styles.image} src="/Untitled.png" alt="Yellow duck" />
