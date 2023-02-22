@@ -10,17 +10,16 @@ function Birds() {
     const [birdName, setBirdname] = useState("");
 
     const handleChange = (selected) => {
-        setBirdname(selected.value)
-        console.log("usestate", useState.value)
+        setBirdname(selected.name)
     }
 
     return (
         <>
-            <div style={{ position: 'relative', alignItems: 'stretch', width: '100%' }}>
+            <div style={{ position: 'relative', alignItems: 'stretch', width: '100%' }} >
                 <div style={{ alignItems: 'stretch' }} >
                     <img style={{ flexDirection: 'JustifyContent', marginTop: '1%', marginBottom: '1%' }} src="/HomeImage.jpg" alt="Photo of 2 keen birdwatchers" />
                 </div>
-                <div style={{ display: 'flex', position: 'absolute', right: '20%', left: '20%', bottom: '22%', }}>
+                <div style={{ display: 'flex', position: 'absolute', right: '20%', left: '20%', bottom: '22%', }} className="mb-10">
                     <div style={{ display: 'flex', flex: 'auto', opacity: '0.6', zIndex: 100 }}>
                         <Select onChange={handleChange} placeholder="Start typing then select your bird" options={options} styles={{ width: 'maxwidth', opacity: '0.5' }} />
                         <NavLink to="/findings"
