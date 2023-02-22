@@ -6,7 +6,7 @@ function Header(props) {
         <header>
             <section>
                 <img style={{ width: '10%', height: 'auto', margin: '0 4%' }} src="/UntitledTwo.png" alt="Yellow duck" />
-                <h1 style={{ fontSize: '35px' }}>RubberDucks </h1>
+                <h1 style={{ fontSize: '35px' }} class="">RubberDucks </h1>
                 <nav style={{ flexDirection: 'column', margin: '0 4%' }}>
                     <NavLink style={{ fontWeight: '600', color: 'black' }} class="hover:text-lg" to="/">
                         Home
