@@ -1,5 +1,5 @@
 // findings will present a map and some posts - images or videos of any sightings shared relating to that type of bird
-import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import L from "leaflet"
 import Data from "../Moderation.json"
@@ -73,13 +73,9 @@ const getAPIName = ()=>{
     return (
         <div>
             <h1>{state.birdName}</h1>
-            {googleBirdName()}
-            {birdDetail()}
-            
-            <p className= "birdDetailP"  style={style.birdDetailP} dangerouslySetInnerHTML={{__html:birdData}}></p> 
-            <a href ={googleURL}>Click here for more details</a>
-           
-            <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false} id="map">
+
+            <MapContainer center={[51.505, -0.09]} zoom={8} scrollWheelZoom={false} id="map">
+
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

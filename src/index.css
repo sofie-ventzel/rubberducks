@@ -126,3 +126,14 @@ div {
   width: 0 !important;
   height: 0 !important;
 }
+
+
+.IndicatorsContainer {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.css-1hb7zxy-IndicatorsContainer {
+  display: none !important;
+
+}

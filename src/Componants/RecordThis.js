@@ -21,6 +21,7 @@ function RecordThis() {
           become familiar with a good selection of species.
         </p>
 
+        <img src="/statue.jpg"></img>
         <h3>How do I find the birds?</h3>
         <p>
           Use your full range of senses. Your peripheral vision is highly
@@ -32,6 +33,7 @@ function RecordThis() {
           close by are warnings that birds have seen you – but can you see them?
         </p>
 
+        <img src="/ChallengePoster.jpg"></img>
         <h3>How do I learn to identify birds?</h3>
         <p>
           There’s no substitute for experience, so just get out there and
@@ -45,6 +47,7 @@ function RecordThis() {
           happy to help a beginner get to grips with the different species.
         </p>
 
+        <img src="/BirdWatchingKit.jpg"></img>
         <h3>What kit do I need?</h3>
         <p>
           Binoculars not only help you see details you’ll need to identify birds
@@ -57,6 +60,8 @@ function RecordThis() {
           field guide such as the tough, waterproof charts for different
           habitats from the Field Studies Council.
         </p>
+
+        <img src="/Sunset.jpg"></img>
         <h3>When should I go?</h3>
         <p>
           There’s plenty to occupy the birdwatcher in each of the four seasons:
@@ -70,6 +75,7 @@ function RecordThis() {
           usually the best times to watch.{" "}
         </p>
 
+        <img src="/Notepad.jpg"></img>
         <h3>What if I get stuck?</h3>
         <p>
           Everyone does! If you see a mystery bird, note down as many details as
@@ -79,6 +85,7 @@ function RecordThis() {
           social media. Don’t be afraid to ask questions.
         </p>
 
+        <img src="/Hide.jpg"></img>
         <h3>How do I use a hide?</h3>
         <p>
           A hide full of people armed with expensive-looking kit can be
@@ -98,7 +105,6 @@ function RecordThis() {
         place. Additional information like the age, the sex, the direction of
         flight or any curious behavior adds value to the observation.
       </p>
-
       <img className="h-40 w-40 mb-10" src="/Untitled.png" alt="Yellow duck" />
     </div>
   );
