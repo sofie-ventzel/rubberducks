@@ -1,6 +1,6 @@
 function RecordThis() {
     return (
-        <>
+        <div class="flex justify-center items-center">
             <div class="container">
                 <h2 class="bg-rosyPink text-xl font-bold">How to get into birdwatching</h2>
                 <h3 class="bg-rosyPink">7 top tips</h3>
@@ -40,7 +40,7 @@ function RecordThis() {
             <h2>What to record</h2>
             <p>When making an entry, the most useful things to record include the species name, the amount of birds of that species, the date and the place.
                 Additional information like the age, the sex, the direction of flight or any curious behavior adds value to the observation.</p>
-        </>
+        </div>
     )
 
 }
