@@ -73,7 +73,11 @@ const getAPIName = ()=>{
     return (
         <div>
             <h1>{state.birdName}</h1>
-
+            {googleBirdName()}
+            {birdDetail()}
+            
+            <p className= "birdDetailP"  style={style.birdDetailP} dangerouslySetInnerHTML={{__html:birdData}}></p> 
+            <a href ={googleURL}>Click here for more details</a>
             <MapContainer center={[51.505, -0.09]} zoom={8} scrollWheelZoom={false} id="map">
 
                 <TileLayer
