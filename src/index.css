@@ -130,5 +130,8 @@ div {
 
 .css-1hb7zxy-IndicatorsContainer {
   display: none !important;
+}
 
+#react-select-3-listbox > div {
+  display: block;
 }
