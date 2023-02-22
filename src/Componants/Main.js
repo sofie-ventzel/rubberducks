@@ -1,11 +1,13 @@
 import { YoutubePlayer } from "./YoutubePlayer";
 
 function Main(props) {
-
-
   return (
-    <main styles={{ display: 'flex', justifyContent: 'space-around' }}>
-      <img style={{ width: '100%', height: 'auto' }} src="/vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg" alt="Yellow duck" />
+    <main styles={{ display: "flex", justifyContent: "space-around" }}>
+      <img
+        style={{ width: "100%", height: "auto" }}
+        src="/vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg"
+        alt="Yellow duck"
+      />
       <h2>The Bird Enthusiasts Community Page</h2>
       <h2>{props.brand}</h2>
 
