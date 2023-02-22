@@ -2,6 +2,7 @@ import { YoutubePlayer } from "./YoutubePlayer";
 
 function Main(props) {
   return (
+
     <main styles={{ display: "flex", justifyContent: "space-around" }}>
       <img
         style={{ width: "100%", height: "auto" }}
@@ -9,6 +10,7 @@ function Main(props) {
         alt="Yellow duck"
       />
       <h2 className="mt-10">The Bird Enthusiasts Community Page</h2>
+
       <h2>{props.brand}</h2>
 
       <h2>Some bird humour videos!</h2>
