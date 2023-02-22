@@ -77,7 +77,7 @@ const getAPIName = ()=>{
             {birdDetail()}
             
             <p className= "birdDetailP"  style={style.birdDetailP} dangerouslySetInnerHTML={{__html:birdData}}></p> 
-            <a href ={googleURL}>Click here for more details</a>
+            <a className="text-rosyPink animate-pulse" href ={googleURL}>Click here for more details</a>
             <MapContainer center={[51.505, -0.09]} zoom={8} scrollWheelZoom={false} id="map">
 
                 <TileLayer

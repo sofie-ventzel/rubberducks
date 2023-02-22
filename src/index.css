@@ -95,11 +95,6 @@ p {
   line-height: 2;
 }
 
-a {
-  color: brown;
-  text-decoration: none;
-}
-
 section {
   display: flex;
   justify-content: space-around;

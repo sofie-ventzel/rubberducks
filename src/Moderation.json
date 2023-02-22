@@ -12,17 +12,6 @@
     },
     {
         "name": "Allen's Gallinule",
-        "comments": "My lucky day this is my first AG",
-        "latLon": [
-            51.508610,
-            -0.063611
-        ],
-        "media": "https://drive.google.com/file/d/1Xgp-rWwCwhAjfVO52Qj2dcCivj8ocGDY/view?usp=share_link",
-        "video": "",
-        "contributor": "JD on UK tour"
-    },
-    {
-        "name": "Allen's Gallinule",
         "comments": "Matting season 2 of them nearby",
         "latLon": [
             51.508610,
@@ -72,7 +61,7 @@
             51.0598,
             -1.3101
         ],
-        "media": "/Aleutian Tern.svg",
+        "media": "/Aleutian Tern.jpg",
         "video": "",
         "contributor": "Anonomus"
     }

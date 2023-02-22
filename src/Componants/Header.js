@@ -8,8 +8,10 @@ function Header(props) {
           src="/UntitledTwo.png"
           alt="Yellow duck"
         />
-        <a style={{}} className=" text-black visited:text-black " href="/">
-          <h1 style={{ fontSize: "35px" }}>RubberDucks </h1>
+        <a className="visited:text-darkRed" href="/">
+          <h1 className="text-6xl text-darkRed" style={{ fontSize: "35px" }}>
+            RubberDucks{" "}
+          </h1>
         </a>
         <nav
           style={{
