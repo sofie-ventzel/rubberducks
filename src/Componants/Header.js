@@ -11,16 +11,16 @@ function Header(props) {
                     <NavLink class="font-bold hover:uppercase" to="/">
                         Home
                     </NavLink>
-                    <NavLink style={{ fontWeight: '600', color: 'black' }} class="hover:uppercase" to="/search">
+                    <NavLink class="font-bold hover:uppercase" to="/search">
                         Search
                     </NavLink>
-                    <NavLink style={{ fontWeight: '600', color: 'black' }} class="hover:uppercase" to="/form">
+                    <NavLink class="font-bold hover:uppercase" to="/form">
                         Post
                     </NavLink>
-                    <NavLink style={{ fontWeight: '600', color: 'black' }} class="hover:uppercase" to="/HowTo">
+                    <NavLink class="font-bold hover:uppercase" to="/HowTo">
                         How To Birdwatch
                     </NavLink>
-                    <NavLink style={{ fontWeight: '600', color: 'black' }} class="hover:uppercase" to="/Moderator">
+                    <NavLink class="font-bold hover:uppercase" to="/Moderator">
                         Moderate
                     </NavLink>
                 </nav>
