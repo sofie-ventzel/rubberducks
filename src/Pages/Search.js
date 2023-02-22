@@ -18,7 +18,6 @@ function Search(props) {
     }
     return (
         <div>
-<<<<<<< HEAD
             <img style={{ flexDirection: 'JustifyContent', marginTop: '1%', marginBottom: '1%' }} src="/HomeImage.jpg" alt="Photo of 2 keen birdwatchers" />
 
             <div style={styles.div}>
@@ -31,8 +30,6 @@ function Search(props) {
                 <img style={styles.image} class="animate-bounce" src="/Untitled.png" alt="Yellow duck" />
 
             </div>
-=======
->>>>>>> b2030b9fc407245a98a14f7e8fa54d6b8724fdb1
 
             <Birds />
 
