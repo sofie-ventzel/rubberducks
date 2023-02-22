@@ -2,17 +2,17 @@ function RecordThis() {
   return (
     <div class="flex justify-center items-center">
       <div class="container">
-        <h2 class="bg-rosyPink text-xl font-bold">
+        <h2 class="mt-10 p-2 bg-rosyPink text-xl font-bold">
           How to get into birdwatching
         </h2>
-        <h3 class="bg-rosyPink">7 top tips</h3>
+        <h3 class="bg-rosyPink p-2">7 top tips</h3>
         <p className="text-sm font-large text-gray-900">
           Birding is a great way to see wildlife, but how do you get started?
         </p>
         <a href="https://www.discoverwildlife.com/how-to/watch-wildlife/how-to-get-into-birdwatching/">
           Amy-Jane Beer shares her advice for becoming a birdwatching pro...
         </a>
-        <h3>Where do I start birdwatching?</h3>
+        <h3 className="mt-10">Where do I start birdwatching?</h3>
         <p>
           Start wherever you are! Birds are everywhere if you take the time to
           notice them. Begin by trying gardens, parks, local reserves or woods.
@@ -97,14 +97,15 @@ function RecordThis() {
           time to leave, do so quietly, but do add any new sightings to the log.
         </p>
       </div>
-      <img className="h-40 w-40" src="/Untitled.png" alt="Yellow duck" />
-      <h2>What to record</h2>
+
+      <h2 className="text-xl font-bold">What to record</h2>
       <p>
         When making an entry, the most useful things to record include the
         species name, the amount of birds of that species, the date and the
         place. Additional information like the age, the sex, the direction of
         flight or any curious behavior adds value to the observation.
       </p>
+      <img className="h-40 w-40 mb-10" src="/Untitled.png" alt="Yellow duck" />
     </div>
   );
 }
