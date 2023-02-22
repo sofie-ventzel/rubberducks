@@ -24,7 +24,8 @@ function Birds() {
                         <Select onChange={handleChange} placeholder="Start typing then select your bird" options={options} styles={{ width: 'maxwidth', opacity: '0.5' }} />
                         <NavLink to="/findings"
                             state={{ birdName }}
-                            style={{ background: 'white', border: 'none', width: '100%', borderRadius: '0px', paddingTop: '0' }}>Press to submit your choice
+                            style={{ background: 'white', border: 'none', width: '100%', borderRadius: '0px', paddingTop: '0' }}>
+                                <button class="hover:bg-warmOrange active:bg-rosyPink">{birdName}</button>Press to submit your choice
                         </NavLink>
                     </div>
                 </div>

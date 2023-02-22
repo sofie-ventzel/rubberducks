@@ -98,15 +98,16 @@ function RecordThis() {
                     time to leave, do so quietly, but do add any new sightings to the log.
                 </p>
             </div>
-
-            <h2 className="text-xl font-bold">What to record</h2>
-            <p>
-                When making an entry, the most useful things to record include the
-                species name, the amount of birds of that species, the date and the
-                place. Additional information like the age, the sex, the direction of
-                flight or any curious behavior adds value to the observation.
-            </p>
-            <img className="h-40 w-40 mb-10" src="/Untitled.png" alt="Yellow duck" />
+            <div>
+              <h2 className="text-xl font-bold">What to record</h2>
+              <p>
+                  When making an entry, the most useful things to record include the
+                  species name, the amount of birds of that species, the date and the
+                  place. Additional information like the age, the sex, the direction of
+                  flight or any curious behavior adds value to the observation.
+              </p>
+              <img className="h-40 w-40 mb-10" src="/Untitled.png" alt="Yellow duck" />
+            </div>
         </div>
     );
 }
