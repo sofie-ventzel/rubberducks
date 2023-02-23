@@ -68,7 +68,7 @@ function Data() {
       </p>
 
       <NavLink to="https://web3forms.com/">
-        <button style={{ color: 'brown' }}>Web3forms</button>
+        <button className="hover:bg-warmOrange">Web3forms</button>
       </NavLink>
 
       <h3 className="bg-rosyPink p-2">Tip: Use Browser Location on site, screenshot this and then add the location to your
@@ -100,7 +100,7 @@ function Data() {
           rows="10"
         ></textarea>
         <LocationInput onChange={handleChange} />
-        <button onClick={handleSubmit} style={styles.longButton}>
+        <button onClick={handleSubmit} style={styles.longButton} className="hover:bg-warmOrange">
           Submit
         </button>
       </form>

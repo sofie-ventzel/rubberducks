@@ -92,7 +92,7 @@ function ModeratorData() {
           cols="30"
           rows="10"
         ></textarea>
-        <button onClick={handleSubmit} style={styles.longButton}>
+        <button onClick={handleSubmit} style={styles.longButton} className="hover:bg-warmOrange">
           Submit
         </button>
       </form>
@@ -119,7 +119,7 @@ function ModeratorData() {
           style={{ width: "60%" }}
           to="https://docs.google.com/document/d/17nWmTL-wiekCt8XRieUGbXKcX444x_HIX23y9SufLOo"
         >
-          <button style={{ width: "100%", color: 'brown' }}>
+          <button style={{ width: "100%" }} className="hover:bg-warmOrange">
             Google Doc Moderator Instructions
           </button>
         </NavLink>
