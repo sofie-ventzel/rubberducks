@@ -68,9 +68,11 @@ function Data() {
       </p>
 
       <NavLink to="https://web3forms.com/">
-        <button>Web3forms</button>
+        <button style={{ color: 'brown' }}>Web3forms</button>
       </NavLink>
 
+      <p>Tip: Use Browser Location on site, screenshot this and then add the location to your
+        post description when you get home so you can really report the essence of the moment!</p>
       <form>
         <input
           name="name"

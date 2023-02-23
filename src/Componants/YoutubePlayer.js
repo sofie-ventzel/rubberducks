@@ -25,7 +25,7 @@ export const YoutubePlayer = () => {
   }, []);
 
   return (
-    <div style={{ alignSelf: "center", height: "400px", width: "600px" }}>
+    <div style={{ alignSelf: "center", width: "600px" }}>
       <LiteYouTubeEmbed
         id={pickRandomVideo()}
         title="What’s new in Material Design for the web (Chrome Dev Summit 2019)"

@@ -123,7 +123,7 @@ function ModeratorData() {
           style={{ width: "60%" }}
           to="https://docs.google.com/document/d/17nWmTL-wiekCt8XRieUGbXKcX444x_HIX23y9SufLOo"
         >
-          <button style={{ width: "100%" }}>
+          <button style={{ width: "100%", color: 'brown' }}>
             Google Doc Moderator Instructions
           </button>
         </NavLink>
