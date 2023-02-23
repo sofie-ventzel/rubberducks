@@ -110,7 +110,7 @@ h1 {
   margin: 2px;
 }
 
-div {
+.flex-div {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -132,5 +132,9 @@ div {
 }
 
 #react-select-3-listbox > div {
+  display: block;
+}
+
+#react-select-9-listbox > div {
   display: block;
 }
