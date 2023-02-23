@@ -61,16 +61,13 @@ function ModeratorData() {
   return (
     <div>
       <h1 style={{ fontSize: "30px", marginBottom: "1%" }}>
-        {" "}
         Become a Moderator
       </h1>
 
       <h2 style={{ marginBottom: "1%" }}>
-        {" "}
         Moderators are key to what we do at RubberDucks.
       </h2>
       <h2 style={{ marginBottom: "1%" }}>
-        {" "}
         If you have some basic IT skills to update a simple system and time to
         spare please get in touch!
       </h2>
@@ -102,11 +99,10 @@ function ModeratorData() {
 
       {success && <p style={styles.success}>Form Submitted Successfully</p>}
 
-      <h2>
-        {" "}
+      <h3 className="bg-rosyPink p-2">
         Note: Abuse of the moderator position will not be tolerated. Founder
         members have the right to refuse Moderator privileges!
-      </h2>
+      </h3>
 
       <h2>The below link is to the Moderator instruction Guide</h2>
 

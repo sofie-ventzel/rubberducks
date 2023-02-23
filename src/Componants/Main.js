@@ -7,17 +7,17 @@ function Main(props) {
       <img
         style={{ width: "100%", height: "auto" }}
         src="/vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg"
-        alt="Yellow duck"
+        alt="Kingfisher"
       />
-      <h2 className="mt-10">The Bird Enthusiasts Community Page</h2>
+      <h2 style={{ margin: '2%' }}>The Bird Enthusiasts Community Page</h2>
 
-      <h2>{props.brand}</h2>
+      <h2>Community Run, Community Owned!</h2>
 
-      <h2>Some bird humour videos!</h2>
+      <h2 style={{ margin: '2%' }}>Some bird humour videos!</h2>
 
       <div className="Video-player">{<YoutubePlayer />}</div>
 
-      <p>
+      <p style={{ marginTop: '0' }}>
         Join our UK wide community of bird enthusiasts, discover the wonders of
         nature right at your door. People all over the UK contribute to our site
         advising of sightings, sending videos and providing care advice.

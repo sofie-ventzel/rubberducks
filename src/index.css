@@ -4,7 +4,7 @@
 @import "tailwindcss/utilities";
 
 body {
-  margin: 5px 0;
+  margin: 4px 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -131,10 +131,10 @@ h1 {
   display: none !important;
 }
 
-#react-select-3-listbox > div {
+#react-select-3-listbox>div {
   display: block;
 }
 
-#react-select-9-listbox > div {
+#react-select-9-listbox>div {
   display: block;
 }

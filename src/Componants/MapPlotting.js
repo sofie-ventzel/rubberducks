@@ -23,8 +23,8 @@ function MapPlotting() {
   const { state } = useLocation();
   const birds = state.birdName
     ? Data.filter(function (post) {
-        return post.name === state.birdName;
-      })
+      return post.name === state.birdName;
+    })
     : Data;
 
   let apiBirdName = "";
@@ -101,5 +101,6 @@ function MapPlotting() {
     </div>
   );
 }
+
 
 export default MapPlotting;

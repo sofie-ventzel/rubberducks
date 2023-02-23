@@ -17,7 +17,7 @@ const styles = {
     marginTop: "3%",
     marginBottom: "7%",
     textAlign: "center",
-    color: "rgba(255, 255, 255, 0.856)",
+    color: "brown",
   },
 };
 
@@ -71,7 +71,9 @@ function Data() {
         <button className="hover:bg-warmOrange">Web3forms</button>
       </NavLink>
 
-      <form>
+      <h3 className="bg-rosyPink p-2">Tip: Use Browser Location on site, screenshot this and then add the location to your
+        post description when you get home so you can really report the essence of the moment!</h3>
+      <form style={{ marginTop: '2%' }}>
         <input
           name="name"
           onChange={handleChange}
