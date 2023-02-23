@@ -1,6 +1,6 @@
 function RecordThis() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex-div flex justify-center items-center">
       <div className="container">
         <h2 className="mt-10 p-2 bg-rosyPink text-xl font-bold">
           How to get into birdwatching
