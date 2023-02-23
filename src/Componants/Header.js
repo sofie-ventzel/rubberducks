@@ -4,7 +4,7 @@ function Header(props) {
     <header>
       <section>
         <img
-          style={{ width: "20%", height: "auto", margin: "0 4%", alignSelf: 'center' }}
+          style={{ width: "20%", height: "auto", margin: "1% 4%", alignSelf: 'center' }}
           src="/UntitledTwo.png"
           alt="Yellow duck"
         />
@@ -16,10 +16,9 @@ function Header(props) {
         <nav
           style={{
             width: "15%",
-            height: "180px",
             flexDirection: "column",
-            margin: "0 4%",
-            justifyContent: 'space-between'
+            margin: "1% 4%",
+
           }}
         >
           <NavLink
