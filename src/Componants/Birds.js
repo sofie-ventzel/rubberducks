@@ -7,10 +7,10 @@ const options = Data
 
 
 function Birds() {
-    const [birdName, setBirdname] = useState("");
+    const [birdName, setBirdName] = useState("");
 
     const handleChange = (selected) => {
-        setBirdname(selected.name)
+        setBirdName(selected.name)
     }
 
     return (
