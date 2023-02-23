@@ -9,11 +9,11 @@ function Main(props) {
         src="/vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg"
         alt="Kingfisher"
       />
-      <h2 style={{ margin: '2%' }}>The Bird Enthusiasts Community Page</h2>
+      <h2 style={{ margin: '2%' }} className="text-4xl">The Bird Enthusiasts Community Page</h2>
 
       <h2>Community Run, Community Owned!</h2>
 
-      <h2 style={{ margin: '2%' }}>Some bird humour videos!</h2>
+      <h2 style={{ margin: '2%' }} className="text-2xl">Some bird humour videos!</h2>
 
       <div className="Video-player">{<YoutubePlayer />}</div>
 
