@@ -11,9 +11,10 @@ function BlogsandMedia() {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'space-between',
-            fontFamily: "Papyrus, fantasy",
             fontWeight: "bold",
-            border: "solid"
+            border: "solid",
+            borderColor: 'grey',
+            borderWidth: '1px'
 
         },
         wording: {
@@ -50,11 +51,9 @@ function BlogsandMedia() {
                 return (
                     <section style={styles.container} key={`${post.name}-${i}`}>
                         <img style={styles.image} src={post.media} />
-                        <p style={styles.container}>Blog Description: </p>
+                        <p>Posted By: {post.contributor} </p>
                         <p>{post.comments}</p>
                         <div style={styles.extraWording}>
-                            <p>Posted by :</p>
-                            <p>{post.contributor}</p>
                         </div>
                     </section>
 
