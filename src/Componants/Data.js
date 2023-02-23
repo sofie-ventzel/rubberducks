@@ -68,7 +68,7 @@ function Data() {
       </p>
 
       <NavLink to="https://web3forms.com/">
-        <button>Web3forms</button>
+        <button className="hover:bg-warmOrange">Web3forms</button>
       </NavLink>
 
       <form>
@@ -98,7 +98,7 @@ function Data() {
           rows="10"
         ></textarea>
         <LocationInput onChange={handleChange} />
-        <button onClick={handleSubmit} style={styles.longButton}>
+        <button onClick={handleSubmit} style={styles.longButton} className="hover:bg-warmOrange">
           Submit
         </button>
       </form>
