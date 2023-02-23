@@ -38,12 +38,13 @@ export function LocationInput({ onChange }) {
   }, [geoLocation]);
 
   return (
-    <div>
+    <div className="flex-div">
       <div
         style={{
           display: "flex",
           flexDirection: "row",
           justifyContent: "flex-start",
+          alignItems: "center"
         }}
       >
         <span>Use browser location</span>
