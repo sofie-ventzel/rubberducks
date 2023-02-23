@@ -1,10 +1,15 @@
 import { NavLink } from "react-router-dom";
 function Header(props) {
   return (
-    <header>
+    <header className="p-5">
       <section>
         <img
-          style={{ width: "20%", height: "auto", margin: "1% 4%", alignSelf: 'center' }}
+          style={{
+            width: "15%",
+            height: "auto",
+            margin: "0 4%",
+            alignSelf: "center",
+          }}
           src="/UntitledTwo.png"
           alt="Yellow duck"
         />
@@ -15,29 +20,29 @@ function Header(props) {
         </a>
         <nav
           style={{
+            height: "150px",
             width: "15%",
             flexDirection: "column",
             margin: "1% 4%",
-
           }}
         >
           <NavLink
             style={{ fontWeight: "600", color: "black" }}
-            className="hover:text-lg"
+            className="hover:text-lg p-1"
             to="/"
           >
             Home
           </NavLink>
           <NavLink
             style={{ fontWeight: "600", color: "black" }}
-            className="hover:text-lg"
+            className="hover:text-lg p-1"
             to="/search"
           >
             Search
           </NavLink>
           <NavLink
             style={{ fontWeight: "600", color: "black" }}
-            className="hover:text-lg"
+            className="hover:text-lg p-1"
             to="/form"
           >
             Post
@@ -51,7 +56,7 @@ function Header(props) {
           </NavLink>
           <NavLink
             style={{ fontWeight: "600", color: "black" }}
-            className="hover:text-lg"
+            className="hover:text-lg p-1"
             to="/Moderator"
           >
             Moderate
@@ -60,6 +65,5 @@ function Header(props) {
       </section>
     </header>
   );
-
 }
 export default Header;
